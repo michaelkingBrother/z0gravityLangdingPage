@@ -1,0 +1,561 @@
+:root{
+    --primaryColor: #041839;
+    --textOnPrimaryColor: #049BF7;
+    --maxWidth: 1048px;
+}
+body{
+    max-width: 1570px;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: var(--maxWidth);
+}
+
+.z0title h2{
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 600;
+    text-align: center;
+}
+.z0title p{
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+}
+.navbar-toggler{
+    border: unset;
+    box-shadow: unset;
+}
+.navbar-toggler:focus{
+    box-shadow: unset;
+}
+
+a{
+    text-decoration: none;
+}
+/* end reset css */
+header{
+    background-color: #F1F6FA;
+}
+.nav-item{
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 23px;
+    font-style: normal;
+    letter-spacing: 1.88px;
+    color: var(--primaryColor);
+    font-weight: bold;
+}
+/* css banelContent  */
+.banelContent{
+    color: var(--primaryColor);
+    margin: 60px auto;
+    z-index: 1;
+}
+.banelContent h2{
+    font-size: 70px;
+    line-height: 76px;
+    font-weight: 500;
+    letter-spacing: -2.1px;
+    
+    opacity: 1;
+}
+.banelContent p{
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.banelContent>button{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.banelContent>span{
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.iconPlay{
+    color:white;
+    text-align: right;
+    background-color:var(--primaryColor);
+}
+.videoThumbnai{
+    position: absolute;
+    margin-top: 38px;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+}
+video[poster]{
+    object-fit: cover;
+    max-height: 412px;
+}
+.iconMute i{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 7px;
+    cursor: pointer;
+}
+
+/* css blockquote carousel  */
+.blockquote{
+    margin-top:66px;
+    max-width: 1024px;
+    border-radius: 15px;
+    padding: 34px;
+    color:var(--primaryColor);
+    margin-bottom:80px;
+}
+.blockquote p .blockquoteTag{
+    font-size: 18px;
+    line-height: 38px;
+    font-weight: 500;
+    color:#BEBEBE;
+}
+.blockquote>img{
+    max-height: 37.3px;
+    margin-top: 42px;
+    margin-bottom: 46px;
+}
+.blockquote p i{
+    font-size: 24px;
+    line-height: 35px;
+}
+.blockquote-footer cite{
+    color: var(--primaryColor);
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+}
+.blockquote-footer p{
+    font-size: 18px;
+    line-height: 27px;
+}
+.blockquote .slideBtn{
+    top: 24px;
+    right: 24px;
+}
+
+.slideBtn i{
+    border-radius: 50%;
+    padding: 11.55px 16.55px 12.55px 15.14px;
+    box-shadow: 0px 12px 30px #0418391A;
+
+}
+.blockquote-footer{
+    background-color: white;
+    margin-top: 28px;
+}
+
+
+/* css sestion z0Project */
+.z0Project{
+    background-color: var(--primaryColor);
+}
+.z0ProjectImage{
+    padding-top: 125px;
+}
+.z0ProjectImage p{
+    max-width:739px;
+    margin-top: 125px;
+    margin-bottom: 147px;
+}
+.bigcard{
+    max-width: 1034px;
+    padding: 0px 0px;
+    background-color: #FF7D66;
+    overflow: hidden;
+    padding: unset;
+    border: unset;
+    border-radius: 30px;
+    margin-top: 147px;
+    margin-bottom: 100px;
+}
+.bigcard .card-body {
+    padding: unset;
+}
+.bigcard .card-body > img {
+    object-fit: cover;
+    padding: 0px 0px;
+}
+.bigcard .cardbackground{
+    background-image: url("/img/Bubbles_Grey_Home.png");
+    background-color: #FF7D66;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    margin-top: 135px;
+    padding-left: 35px;
+}
+.bigcard .cardbackground>h2{
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 600; 
+}
+.bigcard .cardbackground>p{
+    margin-top: 10px;
+    color: var(--primaryColor);
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px
+}
+.bigcard .cardbackground p strong{
+    color: var(--primaryColor);
+    font-family: "Poppins", Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 35px
+}
+.z0Project .z0ProjectVideo {
+    max-width: 700px;
+    padding-top: 106px;
+}
+.z0ProjectVideo p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.z0ProjectVideo button{
+    max-width: 237px;
+    height: 39px;
+    margin: 21px auto 101px;
+    margin-top: 20px;
+}
+.z0gravityMobiDesktop img{
+    max-width: 1168px;
+    margin: 0 auto;
+}
+.z0Company{
+    padding-top:  104px;
+}
+
+
+/* css vous etes description card  */
+.descritonCard{
+    padding-bottom: 142px;
+}
+.descritonCard .card{
+    max-width: 318px;
+    max-height: 343px;
+    padding: 0 21px;
+    margin-top: 22px;
+    padding-bottom: 34px;
+}
+.descritonCard .card img{
+    max-width: 100px;
+    max-height: 100px;
+    margin: 29px auto 9px;
+}
+.descritonCard .card-body a{
+    width: 237px;
+}
+.descritonCard .card-text {
+    max-height: 72px;
+}
+
+/* css nos article  */
+.nosArticles{
+    padding-top: 108px;
+    padding-bottom: 114px;
+}
+.articles{
+    font-weight: 500;
+}
+.articles .card{
+    border-radius: 15px;
+    max-height: 454px;
+    margin: 15px;
+}
+#articlesCard1{
+    width: 318px;
+}
+#articlesCard2 p .card-text{
+    height: 266px;
+}
+.articles .card .card-title{
+    font-size: 24px;
+    line-height: 32px;
+}
+.articles .card .card-tag{
+    font-size: 12px;
+    line-height: 18px;
+    margin: 13px 0;  
+}
+.articles .card .card-body{
+    font-size: 13px;
+    line-height: 20px;
+}
+.articles .card-img-top {
+    max-height: 126px;
+    padding: 18px 18px 0px;   
+}
+.articles .card a{
+    margin-bottom: 19px;
+    margin-left: 16px;
+}
+.readMoreArticles button{
+    max-width: 237px;
+    height: 39px;
+    margin-top: 27px;
+}
+
+
+
+
+/* css call to action  */
+.callAction{
+    padding-top: 96.5px;
+}
+.callActionBtn button{
+    background-color:#FF7D66;
+    border-color: #FF7D66;
+    max-width: 237px;
+    height: 39px;
+    margin: 17.5px auto 127px;
+}
+
+/* css footer  */
+footer{
+    background-color: var(--primaryColor);
+    padding-top: 57px;
+}
+.footerInfo{
+    max-width: 790px;    
+    margin-bottom: 32px;
+}
+
+.footerLogo img{
+    max-height: 40px;
+    max-width:154px;
+    margin-top: -8px;
+}
+.footerLogo p {
+    font-size: 14px;
+    margin-top: 16px;
+    font-weight: 500;
+    font-style: Medium;
+    line-height:21px;
+    color: var(--textOnPrimaryColor);
+}
+.footerMenu{
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: Regular;
+}
+
+.socialLink>p{
+    color: var(--textOnPrimaryColor);
+    font-size: 12px;
+    font-weight: 500;
+    font-style: Medium;
+    line-height:18px;
+    letter-spacing: 1.5px;
+}
+.socialLink i{
+    color: #E4EEF1;
+    padding-right:14px;
+    font-size: 19px;
+}
+.footerInfo button{
+    margin-top: 60px;
+    max-width: 220px;
+    max-height: 38px;
+}
+
+
+/* css copyright  */
+.coppyRight{
+    margin-top:79px;
+}
+.footerSiteLink>li{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 17px;
+    letter-spacing: 0px;
+}
+.footerSiteLink>li:nth-child(1){
+    margin-left: 5px;
+}
+/* css copyright  */
+
+/* css language modal  */
+#langguage .modal-content{
+    max-width: 1024px;
+    border-radius: 15px;
+    padding: 13px;
+    color: var(--primaryColor);
+}
+#langguage .modal-header{
+    font-size: 40px;
+    line-height: 60px;
+    font-style: SemiBold;
+    font-weight: 600;
+    border: unset;
+}
+#langguage .modal-header>button{
+    all: unset;
+    top: -13px;
+    right: 0px
+}
+#langguage .modal-header button span>i{
+    font-size: 23.24px;
+    line-height: 23.24x;
+    padding: 11.62px;
+    cursor: pointer;
+}
+#langguage li:hover{
+    background-color: #FFD051;
+}
+#langguage li:active{
+    background-color: var(--textOnPrimaryColor);
+}
+
+.modal-header h2{
+    line-height: 56px;
+    color: var(--primaryColor);
+}
+
+
+@media only screen and (max-width: 768px){
+    .nav-item{
+        border-bottom: 0.01px solid var(--primaryColor);
+    }
+    .banelContent{
+        margin-top: 0px;
+    }
+    .banelContent h2{
+        margin-top: 142px;
+        font-size: 36px;
+        line-height: 40px;
+        font-weight: 500;
+        letter-spacing: -1.08px;
+    }
+    .banelContent .videoThumbnai{
+        top: 0px; 
+        left: 0px;
+        margin-top: 0px;   
+    }
+    video[poster]{
+        object-fit: cover;
+        max-height: 210px
+    }
+    .carousel-item{
+        padding: 0 20px;
+        margin: 78px 0px 112px;
+        overflow:hidden;
+    }
+    .blockquoteTag{
+        font-size: 12px;
+        letter-spacing: 1.2px;
+        line-height: 38px;
+        font-weight: 500;
+        color:#BEBEBE;
+    }
+    .blockquote>img{
+        max-height: 26px;
+        margin-top: 34.47px;
+        margin-bottom: 34.72px;
+    }
+    .blockquote p i{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .blockquote-footer cite{
+        color: var(--primaryColor);
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: bold;
+    }
+    .blockquote-footer p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .blockquote .slideBtn{
+        top: 20px;
+        right: 20px;
+    }
+    .z0ProjectImage{
+        padding-top: 125px;
+    }
+    .z0ProjectImage{
+        padding: 102px 30px 110px;
+    }
+    .bigcard{
+        border-radius: 0px;
+        margin-top: 147px;
+        margin-bottom: 91px;
+    }
+    
+    .cardbackground{
+        margin-top: 104px;
+        padding-bottom: 335px;
+        padding-left: 35.5px;
+    }
+    .cardbackground h2{
+        font-size: 30px;
+        line-height: 46px;
+    }
+    .cardbackground p{
+        font-size: 16px;
+        line-height: 35px;
+    }
+    .cardbackground p strong{
+        font-size: 30px;
+        line-height: 46px;
+    }
+    .bigcard .card-body > img {
+        object-fit: cover;
+        max-height: 336px;
+        padding: 0px 0px;
+    }
+    .z0ProjectVideo {
+        max-width: 332.72px;
+    }
+    .z0ProjectVideo p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .z0ProjectVideo button{
+        margin: 21px auto 82px;
+    }
+    .descritonCard{
+        padding-bottom: 53px;
+    }
+    .z0Company{
+        padding-top: 81px;
+    }
+    .callActionBtn button{
+        height: 39px;
+        margin: 21px auto 101px;
+    }
+    .footerLogo img{
+        max-height: 48px;
+        max-width:184px;
+        margin-top: 0px;
+    }
+    .footerLogo{
+        margin-bottom: 29px;
+    }
+    .socialLink{
+        margin-top: 51px;
+    }
+    .footerInfo button{
+        margin: 54px auto 0px;
+    }
+
+    .coppyRight{
+        padding-bottom: 146px;
+    }
+
+}
