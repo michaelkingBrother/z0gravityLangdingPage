@@ -277,12 +277,7 @@ video[poster]{
     max-height: 454px;
     margin: 15px;
 }
-#articlesCard1{
-    width: 318px;
-}
-#articlesCard2 p .card-text{
-    height: 266px;
-}
+
 .articles .card .card-title{
     font-size: 24px;
     line-height: 32px;
@@ -308,6 +303,26 @@ video[poster]{
     max-width: 237px;
     height: 39px;
     margin-top: 27px;
+}
+#articlesCard1{
+    height: 454px;
+    width: 318px;
+}
+#articlesCard2{
+    height: 454px;
+    width: 676px;
+    padding: 18px;
+}
+#articlesCard2 .card-body{
+    margin-left: 34px;
+}
+#articlesCard3{
+    height: 318px;
+    width: 492px;
+}
+#articlesCard4{
+    height: 318px;
+    width: 502px;
 }
 
 
