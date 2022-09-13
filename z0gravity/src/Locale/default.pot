@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2022-08-19 07:41+0000\n"
+"POT-Creation-Date: 2022-08-31 07:17+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -13,6 +13,289 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/LpContentsController.php:54
+#: Controller/LpContentsController.php:78
+msgid "The lp content has been saved."
+msgstr ""
+
+#: Controller/LpContentsController.php:58
+#: Controller/LpContentsController.php:82
+msgid "The lp content could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/LpContentsController.php:99
+msgid "The lp content has been deleted."
+msgstr ""
+
+#: Controller/LpContentsController.php:101
+msgid "The lp content could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/LpImagesController.php:57
+#: Controller/LpImagesController.php:82
+msgid "The lp image has been saved."
+msgstr ""
+
+#: Controller/LpImagesController.php:61
+#: Controller/LpImagesController.php:86
+msgid "The lp image could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/LpImagesController.php:104
+msgid "The lp image has been deleted."
+msgstr ""
+
+#: Controller/LpImagesController.php:106
+msgid "The lp image could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/LpListArticlesController.php:54
+#: Controller/LpListArticlesController.php:78
+msgid "The lp list article has been saved."
+msgstr ""
+
+#: Controller/LpListArticlesController.php:58
+#: Controller/LpListArticlesController.php:82
+msgid "The lp list article could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/LpListArticlesController.php:99
+msgid "The lp list article has been deleted."
+msgstr ""
+
+#: Controller/LpListArticlesController.php:101
+msgid "The lp list article could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/PressesTestimonialsController.php:54
+#: Controller/PressesTestimonialsController.php:78
+msgid "The presses testimonial has been saved."
+msgstr ""
+
+#: Controller/PressesTestimonialsController.php:58
+#: Controller/PressesTestimonialsController.php:82
+msgid "The presses testimonial could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PressesTestimonialsController.php:99
+msgid "The presses testimonial has been deleted."
+msgstr ""
+
+#: Controller/PressesTestimonialsController.php:101
+msgid "The presses testimonial could not be deleted. Please, try again."
+msgstr ""
+
+#: Template/Element/Widgets/headerPanel.ctp:6
+#: Template/Pages/home coppy.ctp:112
+msgid "Fédérateur."
+msgstr ""
+
+#: Template/Element/Widgets/headerPanel.ctp:6
+#: Template/Pages/home coppy.ctp:112
+msgid "Personnalisé."
+msgstr ""
+
+#: Template/Element/Widgets/headerPanel.ctp:6
+#: Template/Pages/home coppy.ctp:112
+msgid "Souple & adapté."
+msgstr ""
+
+#: Template/Element/Widgets/headerPanel.ctp:8
+#: Template/Pages/home coppy.ctp:114
+msgid "Découvrez z0 Gravity"
+msgstr ""
+
+#: Template/Element/Widgets/headerPanel.ctp:9
+#: Template/Pages/home coppy.ctp:115
+msgid "Voir la vidéo"
+msgstr ""
+
+#: Template/Element/Widgets/headerPresseTestimonialsCarousel.ctp:18
+#: Template/Element/Widgets/headerPresseTestimonialsCarousel.ctp:47
+#: Template/Pages/home coppy.ctp:144
+#: Template/Pages/home coppy.ctp:165
+#: Template/Pages/home coppy.ctp:186
+msgid "Lire l’article "
+msgstr ""
+
+#: Template/Element/Widgets/headerPresseTestimonialsCarousel.ctp:20
+#: Template/Element/Widgets/headerPresseTestimonialsCarousel.ctp:49
+#: Template/Element/Widgets/nosArticle.ctp:11
+#: Template/Element/Widgets/nosArticle.ctp:14
+#: Template/Element/Widgets/nosArticle.ctp:34
+#: Template/Element/Widgets/nosArticle.ctp:46
+#: Template/Element/Widgets/nosArticle.ctp:57
+#: Template/Element/Widgets/nosArticle.ctp:67
+#: Template/Pages/home coppy.ctp:294
+#: Template/Pages/home coppy.ctp:306
+#: Template/Pages/home coppy.ctp:317
+#: Template/Pages/home coppy.ctp:327
+msgid "Lire l’article"
+msgstr ""
+
+#: Template/Element/Widgets/nosArticle.ctp:7
+#: Template/Element/Widgets/nosArticle.ctp:32
+#: Template/Element/Widgets/nosArticle.ctp:44
+#: Template/Element/Widgets/nosArticle.ctp:55
+#: Template/Element/Widgets/nosArticle.ctp:65
+#: Template/Pages/home coppy.ctp:292
+#: Template/Pages/home coppy.ctp:304
+#: Template/Pages/home coppy.ctp:315
+#: Template/Pages/home coppy.ctp:325
+msgid "15 min"
+msgstr ""
+
+#: Template/Element/Widgets/nosArticle.ctp:24
+#: Template/Pages/home coppy.ctp:284
+msgid "Nos articles"
+msgstr ""
+
+#: Template/Element/Widgets/nosArticle.ctp:31
+#: Template/Pages/home coppy.ctp:291
+msgid "Comment choisir votre logiciel de gestion de projet"
+msgstr ""
+
+#: Template/Element/Widgets/nosArticle.ctp:32
+#: Template/Element/Widgets/nosArticle.ctp:44
+#: Template/Element/Widgets/nosArticle.ctp:55
+#: Template/Element/Widgets/nosArticle.ctp:65
+#: Template/Pages/home coppy.ctp:292
+#: Template/Pages/home coppy.ctp:304
+#: Template/Pages/home coppy.ctp:315
+#: Template/Pages/home coppy.ctp:325
+msgid "eNTREPRISES"
+msgstr ""
+
+#: Template/Element/Widgets/nosArticle.ctp:33
+#: Template/Pages/home coppy.ctp:293
+msgid "Bien choisir son logiciel de gestion de projet ou son outil de gestion de projet est une question cruciale pour les entreprises."
+msgstr ""
+
+#: Template/Element/Widgets/nosArticle.ctp:43
+#: Template/Pages/home coppy.ctp:303
+msgid "Logiciel de gestion de projet secteur public"
+msgstr ""
+
+#: Template/Element/Widgets/nosArticle.ctp:45
+#: Template/Pages/home coppy.ctp:305
+msgid "z0 Gravity est un logiciel de gestion de projet développé avec et pour des collectivités territoriales. Grâce à son interface simple et son tableau de bord embarqué, ce logiciel de gestion de projet secteur public permet de répondre efficacement aux contraintes de temps et de budget des collectivités territoriales."
+msgstr ""
+
+#: Template/Element/Widgets/nosArticle.ctp:54
+#: Template/Pages/home coppy.ctp:314
+msgid "Logiciel de gestion de projet en ligne SaaS"
+msgstr ""
+
+#: Template/Element/Widgets/nosArticle.ctp:56
+#: Template/Pages/home coppy.ctp:316
+msgid "La gestion d’un projet implique en réalité de réaliser une succession de tâches très différentes pour l’entreprise et qu’il faut, bien souvent, mener de front : planification, répartition des ressources, des tâches, activités de reporting, suivi de l’avancée des projets, de la consommation des budgets, etc."
+msgstr ""
+
+#: Template/Element/Widgets/nosArticle.ctp:64
+#: Template/Pages/home coppy.ctp:324
+msgid "7 conseils clés pour bien s’équiper d’un outil de gestion de projet"
+msgstr ""
+
+#: Template/Element/Widgets/nosArticle.ctp:66
+#: Template/Pages/home coppy.ctp:326
+msgid "Vous avez décidé qu’il était temps d’investir dans un outil de gestion de projet pour votre entreprise ? Vous souhaitez gagner en productivité et en efficacité dans la gestion de vos affaires courantes et, par la même occasion, en faire profiter tous les services ? C’est une très bonne idée."
+msgstr ""
+
+#: Template/Element/Widgets/nosArticle.ctp:72
+#: Template/Pages/home coppy.ctp:332
+msgid "Voir tous les articles"
+msgstr ""
+
+#: Template/Layout/default.ctp:86
+#: Template/Pages/home coppy.ctp:95
+msgid "ENTREPRISES"
+msgstr ""
+
+#: Template/Layout/default.ctp:87
+#: Template/Pages/home coppy.ctp:96
+msgid "SECTEUR PUBLIC"
+msgstr ""
+
+#: Template/Layout/default.ctp:88
+#: Template/Pages/home coppy.ctp:97
+msgid "À PROPOS"
+msgstr ""
+
+#: Template/Layout/default.ctp:89
+#: Template/Pages/home coppy.ctp:98
+msgid "CONTACT"
+msgstr ""
+
+#: Template/Layout/default.ctp:90
+#: Template/Pages/home coppy.ctp:99
+msgid "BLOG"
+msgstr ""
+
+#: Template/Layout/default.ctp:91
+#: Template/Pages/home coppy.ctp:100
+msgid "Log Out"
+msgstr ""
+
+#: Template/Layout/default.ctp:114
+#: Template/Pages/home coppy.ctp:364
+msgid "Ensemble, on va plus loin."
+msgstr ""
+
+#: Template/Layout/default.ctp:117
+#: Template/Pages/home coppy.ctp:367
+msgid "Entreprises"
+msgstr ""
+
+#: Template/Layout/default.ctp:118
+#: Template/Pages/home coppy.ctp:368
+msgid "Collectivités"
+msgstr ""
+
+#: Template/Layout/default.ctp:119
+#: Template/Pages/home coppy.ctp:369
+msgid "À propos"
+msgstr ""
+
+#: Template/Layout/default.ctp:120
+#: Template/Pages/home coppy.ctp:370
+msgid "Contact"
+msgstr ""
+
+#: Template/Layout/default.ctp:121
+#: Template/Pages/home coppy.ctp:371
+msgid "Blog"
+msgstr ""
+
+#: Template/Layout/default.ctp:125
+#: Template/Pages/home coppy.ctp:375
+msgid "SUIVEZ-NOUS"
+msgstr ""
+
+#: Template/Layout/default.ctp:131
+#: Template/Pages/home coppy.ctp:381
+msgid "changer de région"
+msgstr ""
+
+#: Template/Layout/default.ctp:142
+#: Template/Pages/home coppy.ctp:394
+msgid "Plan du site"
+msgstr ""
+
+#: Template/Layout/default.ctp:143
+#: Template/Pages/home coppy.ctp:395
+msgid "Contactez-nous"
+msgstr ""
+
+#: Template/Layout/default.ctp:144
+#: Template/Pages/home coppy.ctp:396
+msgid "Mentions légales"
+msgstr ""
+
+#: Template/Layout/default.ctp:146
+#: Template/Pages/home coppy.ctp:398
+msgid "© 2019 Globalsi SAS"
+msgstr ""
 
 #: Template/Layout/error.ctp:35
 msgid "Error"
@@ -22,300 +305,517 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
-#: Template/Pages/home.ctp:95
-msgid "ENTREPRISES"
+#: Template/LpContents/add.ctp:9
+#: Template/LpContents/edit.ctp:9
+#: Template/LpContents/index.ctp:9
+#: Template/LpContents/index.ctp:26
+#: Template/LpContents/view.ctp:9
+#: Template/LpContents/view.ctp:62
+#: Template/LpImages/add.ctp:9
+#: Template/LpImages/edit.ctp:9
+#: Template/LpImages/index.ctp:9
+#: Template/LpImages/index.ctp:27
+#: Template/LpImages/view.ctp:9
+#: Template/LpListArticles/add.ctp:9
+#: Template/LpListArticles/edit.ctp:9
+#: Template/LpListArticles/index.ctp:9
+#: Template/LpListArticles/index.ctp:25
+#: Template/LpListArticles/view.ctp:9
+#: Template/PressesTestimonials/add.ctp:9
+#: Template/PressesTestimonials/edit.ctp:9
+#: Template/PressesTestimonials/index.ctp:9
+#: Template/PressesTestimonials/index.ctp:25
+#: Template/PressesTestimonials/view.ctp:9
+msgid "Actions"
 msgstr ""
 
-#: Template/Pages/home.ctp:96
-msgid "SECTEUR PUBLIC"
+#: Template/LpContents/add.ctp:10
+#: Template/LpContents/edit.ctp:16
+#: Template/LpContents/view.ctp:12
+msgid "List Lp Contents"
 msgstr ""
 
-#: Template/Pages/home.ctp:97
-msgid "À PROPOS"
+#: Template/LpContents/add.ctp:11
+#: Template/LpContents/edit.ctp:17
+#: Template/LpContents/index.ctp:11
+#: Template/LpContents/view.ctp:14
+#: Template/LpImages/add.ctp:10
+#: Template/LpImages/edit.ctp:16
+#: Template/LpImages/view.ctp:12
+msgid "List Lp Images"
 msgstr ""
 
-#: Template/Pages/home.ctp:98
-msgid "CONTACT"
+#: Template/LpContents/add.ctp:12
+#: Template/LpContents/edit.ctp:18
+#: Template/LpContents/index.ctp:12
+#: Template/LpContents/view.ctp:15
+#: Template/LpImages/index.ctp:10
+#: Template/LpImages/view.ctp:13
+msgid "New Lp Image"
 msgstr ""
 
-#: Template/Pages/home.ctp:99
-msgid "BLOG"
+#: Template/LpContents/add.ctp:18
+msgid "Add Lp Content"
 msgstr ""
 
-#: Template/Pages/home.ctp:100
-msgid "Log Out"
+#: Template/LpContents/add.ctp:26
+#: Template/LpContents/edit.ctp:32
+#: Template/LpImages/add.ctp:26
+#: Template/LpImages/edit.ctp:32
+#: Template/LpListArticles/add.ctp:25
+#: Template/LpListArticles/edit.ctp:31
+#: Template/PressesTestimonials/add.ctp:25
+#: Template/PressesTestimonials/edit.ctp:31
+msgid "Submit"
 msgstr ""
 
-#: Template/Pages/home.ctp:112
-msgid "Fédérateur."
+#: Template/LpContents/edit.ctp:11
+#: Template/LpContents/index.ctp:41
+#: Template/LpContents/view.ctp:76
+#: Template/LpImages/edit.ctp:11
+#: Template/LpImages/index.ctp:43
+#: Template/LpListArticles/edit.ctp:11
+#: Template/LpListArticles/index.ctp:41
+#: Template/PressesTestimonials/edit.ctp:11
+#: Template/PressesTestimonials/index.ctp:41
+msgid "Delete"
 msgstr ""
 
-#: Template/Pages/home.ctp:112
-msgid "Personnalisé."
+#: Template/LpContents/edit.ctp:13
+#: Template/LpContents/index.ctp:41
+#: Template/LpContents/view.ctp:11
+#: Template/LpContents/view.ctp:76
+#: Template/LpImages/edit.ctp:13
+#: Template/LpImages/index.ctp:43
+#: Template/LpImages/view.ctp:11
+#: Template/LpListArticles/edit.ctp:13
+#: Template/LpListArticles/index.ctp:41
+#: Template/LpListArticles/view.ctp:11
+#: Template/PressesTestimonials/edit.ctp:13
+#: Template/PressesTestimonials/index.ctp:41
+#: Template/PressesTestimonials/view.ctp:11
+msgid "Are you sure you want to delete # {0}?"
 msgstr ""
 
-#: Template/Pages/home.ctp:112
-msgid "Souple & adapté."
+#: Template/LpContents/edit.ctp:24
+#: Template/LpContents/view.ctp:10
+msgid "Edit Lp Content"
 msgstr ""
 
-#: Template/Pages/home.ctp:113
+#: Template/LpContents/index.ctp:10
+#: Template/LpContents/view.ctp:13
+#: Template/LpImages/add.ctp:12
+#: Template/LpImages/edit.ctp:18
+#: Template/LpImages/index.ctp:12
+#: Template/LpImages/view.ctp:15
+msgid "New Lp Content"
+msgstr ""
+
+#: Template/LpContents/index.ctp:16
+msgid "Lp Contents"
+msgstr ""
+
+#: Template/LpContents/index.ctp:39
+#: Template/LpContents/view.ctp:74
+#: Template/LpImages/index.ctp:41
+#: Template/LpListArticles/index.ctp:39
+#: Template/PressesTestimonials/index.ctp:39
+msgid "View"
+msgstr ""
+
+#: Template/LpContents/index.ctp:40
+#: Template/LpContents/view.ctp:75
+#: Template/LpImages/index.ctp:42
+#: Template/LpListArticles/index.ctp:40
+#: Template/PressesTestimonials/index.ctp:40
+msgid "Edit"
+msgstr ""
+
+#: Template/LpContents/index.ctp:49
+#: Template/LpImages/index.ctp:51
+#: Template/LpListArticles/index.ctp:49
+#: Template/PressesTestimonials/index.ctp:49
+msgid "first"
+msgstr ""
+
+#: Template/LpContents/index.ctp:50
+#: Template/LpImages/index.ctp:52
+#: Template/LpListArticles/index.ctp:50
+#: Template/PressesTestimonials/index.ctp:50
+msgid "previous"
+msgstr ""
+
+#: Template/LpContents/index.ctp:52
+#: Template/LpImages/index.ctp:54
+#: Template/LpListArticles/index.ctp:52
+#: Template/PressesTestimonials/index.ctp:52
+msgid "next"
+msgstr ""
+
+#: Template/LpContents/index.ctp:53
+#: Template/LpImages/index.ctp:55
+#: Template/LpListArticles/index.ctp:53
+#: Template/PressesTestimonials/index.ctp:53
+msgid "last"
+msgstr ""
+
+#: Template/LpContents/index.ctp:55
+#: Template/LpImages/index.ctp:57
+#: Template/LpListArticles/index.ctp:55
+#: Template/PressesTestimonials/index.ctp:55
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr ""
+
+#: Template/LpContents/view.ctp:11
+msgid "Delete Lp Content"
+msgstr ""
+
+#: Template/LpContents/view.ctp:22
+#: Template/LpListArticles/view.ctp:24
+msgid "Title"
+msgstr ""
+
+#: Template/LpContents/view.ctp:26
+msgid "Video Url"
+msgstr ""
+
+#: Template/LpContents/view.ctp:30
+msgid "Btn Content"
+msgstr ""
+
+#: Template/LpContents/view.ctp:34
+#: Template/LpContents/view.ctp:55
+#: Template/LpImages/view.ctp:38
+#: Template/LpListArticles/view.ctp:36
+#: Template/PressesTestimonials/view.ctp:36
+msgid "Id"
+msgstr ""
+
+#: Template/LpContents/view.ctp:38
+#: Template/LpContents/view.ctp:60
+#: Template/LpImages/view.ctp:42
+#: Template/LpListArticles/view.ctp:40
+#: Template/PressesTestimonials/view.ctp:40
+msgid "Created"
+msgstr ""
+
+#: Template/LpContents/view.ctp:42
+#: Template/LpContents/view.ctp:61
+#: Template/LpImages/view.ctp:46
+#: Template/LpListArticles/view.ctp:44
+#: Template/PressesTestimonials/view.ctp:44
+msgid "Modified"
+msgstr ""
+
+#: Template/LpContents/view.ctp:47
+#: Template/LpListArticles/view.ctp:49
+#: Template/PressesTestimonials/view.ctp:49
+msgid "Description"
+msgstr ""
+
+#: Template/LpContents/view.ctp:51
+msgid "Related Lp Images"
+msgstr ""
+
+#: Template/LpContents/view.ctp:56
+#: Template/LpImages/view.ctp:22
+msgid "Image Url"
+msgstr ""
+
+#: Template/LpContents/view.ctp:57
+#: Template/LpImages/view.ctp:26
+msgid "Background Color"
+msgstr ""
+
+#: Template/LpContents/view.ctp:58
+#: Template/LpImages/view.ctp:30
+msgid "Text Color"
+msgstr ""
+
+#: Template/LpContents/view.ctp:59
+msgid "Lp Content Id"
+msgstr ""
+
+#: Template/LpImages/add.ctp:11
+#: Template/LpImages/edit.ctp:17
+#: Template/LpImages/index.ctp:11
+#: Template/LpImages/view.ctp:14
+msgid "List Lp Content"
+msgstr ""
+
+#: Template/LpImages/add.ctp:18
+msgid "Add Lp Image"
+msgstr ""
+
+#: Template/LpImages/edit.ctp:24
+#: Template/LpImages/view.ctp:10
+msgid "Edit Lp Image"
+msgstr ""
+
+#: Template/LpImages/index.ctp:16
+msgid "Lp Images"
+msgstr ""
+
+#: Template/LpImages/view.ctp:11
+msgid "Delete Lp Image"
+msgstr ""
+
+#: Template/LpImages/view.ctp:34
+msgid "Lp Content"
+msgstr ""
+
+#: Template/LpListArticles/add.ctp:10
+#: Template/LpListArticles/edit.ctp:16
+#: Template/LpListArticles/view.ctp:12
+msgid "List Lp List Articles"
+msgstr ""
+
+#: Template/LpListArticles/add.ctp:16
+msgid "Add Lp List Article"
+msgstr ""
+
+#: Template/LpListArticles/edit.ctp:22
+#: Template/LpListArticles/view.ctp:10
+msgid "Edit Lp List Article"
+msgstr ""
+
+#: Template/LpListArticles/index.ctp:10
+#: Template/LpListArticles/view.ctp:13
+msgid "New Lp List Article"
+msgstr ""
+
+#: Template/LpListArticles/index.ctp:14
+msgid "Lp List Articles"
+msgstr ""
+
+#: Template/LpListArticles/view.ctp:11
+msgid "Delete Lp List Article"
+msgstr ""
+
+#: Template/LpListArticles/view.ctp:20
+msgid "Img Url"
+msgstr ""
+
+#: Template/LpListArticles/view.ctp:28
+msgid "Category"
+msgstr ""
+
+#: Template/LpListArticles/view.ctp:32
+#: Template/PressesTestimonials/view.ctp:32
+msgid "Presse Url"
+msgstr ""
+
+#: Template/Pages/home coppy.ctp:113
 msgid "Avec z0 Gravity, découvrez la simplicité et la performance d’une gestion de projet collaborative."
 msgstr ""
 
-#: Template/Pages/home.ctp:114
-msgid "Découvrez z0 Gravity"
-msgstr ""
-
-#: Template/Pages/home.ctp:115
-msgid "Voir la vidéo"
-msgstr ""
-
-#: Template/Pages/home.ctp:137
-#: Template/Pages/home.ctp:158
-#: Template/Pages/home.ctp:179
+#: Template/Pages/home coppy.ctp:137
+#: Template/Pages/home coppy.ctp:158
+#: Template/Pages/home coppy.ctp:179
 msgid "\n                                Il y avait tout d’abord la sécurité, l’outil z0 Gravity a pu être rapidement validé par les équipes d’Orange Cyberdéfense.\n                                "
 msgstr ""
 
-#: Template/Pages/home.ctp:141
-#: Template/Pages/home.ctp:162
-#: Template/Pages/home.ctp:183
+#: Template/Pages/home coppy.ctp:141
+#: Template/Pages/home coppy.ctp:162
+#: Template/Pages/home coppy.ctp:183
 msgid "Stéphane Touchet"
 msgstr ""
 
-#: Template/Pages/home.ctp:143
-#: Template/Pages/home.ctp:164
-#: Template/Pages/home.ctp:185
+#: Template/Pages/home coppy.ctp:143
+#: Template/Pages/home coppy.ctp:164
+#: Template/Pages/home coppy.ctp:185
 msgid "PMO service client Orange Sud-Ouest"
 msgstr ""
 
-#: Template/Pages/home.ctp:144
-#: Template/Pages/home.ctp:165
-#: Template/Pages/home.ctp:186
-msgid "Lire l’article "
-msgstr ""
-
-#: Template/Pages/home.ctp:156
-#: Template/Pages/home.ctp:177
+#: Template/Pages/home coppy.ctp:156
+#: Template/Pages/home coppy.ctp:177
 msgid "PRESSE"
 msgstr ""
 
-#: Template/Pages/home.ctp:208
+#: Template/Pages/home coppy.ctp:208
+#: Template/Pages/home.ctp:31
 msgid "POUR FAIRE COURT."
 msgstr ""
 
-#: Template/Pages/home.ctp:209
+#: Template/Pages/home coppy.ctp:209
+#: Template/Pages/home.ctp:32
 msgid "Z0 Gravity est un logiciel de gestion multi-projets :"
 msgstr ""
 
-#: Template/Pages/home.ctp:209
+#: Template/Pages/home coppy.ctp:209
+#: Template/Pages/home.ctp:32
 msgid "quelle que soit leur complexité, vous gérez facilement les plannings, les budgets et les ressources humaines de vos projets par un usage transversal et collaboratif."
 msgstr ""
 
-#: Template/Pages/home.ctp:215
+#: Template/Pages/home coppy.ctp:215
+#: Template/Pages/home.ctp:38
 msgid "Notre objectif :"
 msgstr ""
 
-#: Template/Pages/home.ctp:216
+#: Template/Pages/home coppy.ctp:216
+#: Template/Pages/home.ctp:39
 msgid "C’est aider tout type d’organisation à réaliser ses projets avec un seul mot d’ordre :"
 msgstr ""
 
-#: Template/Pages/home.ctp:217
+#: Template/Pages/home coppy.ctp:217
+#: Template/Pages/home.ctp:40
 msgid "sim-pli-ci-té !"
 msgstr ""
 
-#: Template/Pages/home.ctp:226
+#: Template/Pages/home coppy.ctp:226
+#: Template/Pages/home.ctp:49
 msgid "Découvrez l’univers z0 Gravity"
 msgstr ""
 
-#: Template/Pages/home.ctp:227
+#: Template/Pages/home coppy.ctp:227
+#: Template/Pages/home.ctp:50
 msgid "Plannings, budgets, calendriers… En un clin d'œil, vous avez une vision globale et stratégique de l'avancée de vos projets en temps réel !"
 msgstr ""
 
-#: Template/Pages/home.ctp:228
+#: Template/Pages/home coppy.ctp:228
+#: Template/Pages/home.ctp:51
 msgid "Présentation vidéo"
 msgstr ""
 
-#: Template/Pages/home.ctp:241
+#: Template/Pages/home coppy.ctp:241
+#: Template/Pages/home.ctp:64
 msgid "Vous êtes…"
 msgstr ""
 
-#: Template/Pages/home.ctp:251
+#: Template/Pages/home coppy.ctp:251
+#: Template/Pages/home.ctp:74
 msgid "Une entreprise"
 msgstr ""
 
-#: Template/Pages/home.ctp:252
+#: Template/Pages/home coppy.ctp:252
+#: Template/Pages/home.ctp:75
 msgid "Jouez collectif : fédérez vos équipes autour  d'un objectif commun."
 msgstr ""
 
-#: Template/Pages/home.ctp:253
+#: Template/Pages/home coppy.ctp:253
+#: Template/Pages/home.ctp:76
 msgid "3,2,1… Go !"
 msgstr ""
 
-#: Template/Pages/home.ctp:261
+#: Template/Pages/home coppy.ctp:261
+#: Template/Pages/home.ctp:84
 msgid "Une collectivité"
 msgstr ""
 
-#: Template/Pages/home.ctp:262
+#: Template/Pages/home coppy.ctp:262
+#: Template/Pages/home.ctp:85
 msgid "Rassemblez les acteurs de votre projet via un logiciel commun !"
 msgstr ""
 
-#: Template/Pages/home.ctp:263
+#: Template/Pages/home coppy.ctp:263
+#: Template/Pages/home.ctp:86
 msgid "Découvrez comment"
 msgstr ""
 
-#: Template/Pages/home.ctp:271
+#: Template/Pages/home coppy.ctp:271
+#: Template/Pages/home.ctp:94
 msgid "Un promeneur égaré"
 msgstr ""
 
-#: Template/Pages/home.ctp:272
+#: Template/Pages/home coppy.ctp:272
+#: Template/Pages/home.ctp:95
 msgid "Bienvenue !  Installez-vous et  laissez-vous guider."
 msgstr ""
 
-#: Template/Pages/home.ctp:273
+#: Template/Pages/home coppy.ctp:273
+#: Template/Pages/home.ctp:96
 msgid "Commençons par ici"
 msgstr ""
 
-#: Template/Pages/home.ctp:284
-msgid "Nos articles"
-msgstr ""
-
-#: Template/Pages/home.ctp:291
-msgid "Comment choisir votre logiciel de gestion de projet"
-msgstr ""
-
-#: Template/Pages/home.ctp:292
-#: Template/Pages/home.ctp:304
-#: Template/Pages/home.ctp:315
-#: Template/Pages/home.ctp:325
-msgid "eNTREPRISES"
-msgstr ""
-
-#: Template/Pages/home.ctp:292
-#: Template/Pages/home.ctp:304
-#: Template/Pages/home.ctp:315
-#: Template/Pages/home.ctp:325
-msgid "15 min"
-msgstr ""
-
-#: Template/Pages/home.ctp:293
-msgid "Bien choisir son logiciel de gestion de projet ou son outil de gestion de projet est une question cruciale pour les entreprises."
-msgstr ""
-
-#: Template/Pages/home.ctp:294
-#: Template/Pages/home.ctp:306
-#: Template/Pages/home.ctp:317
-#: Template/Pages/home.ctp:327
-msgid "Lire l’article"
-msgstr ""
-
-#: Template/Pages/home.ctp:303
-msgid "Logiciel de gestion de projet secteur public"
-msgstr ""
-
-#: Template/Pages/home.ctp:305
-msgid "z0 Gravity est un logiciel de gestion de projet développé avec et pour des collectivités territoriales. Grâce à son interface simple et son tableau de bord embarqué, ce logiciel de gestion de projet secteur public permet de répondre efficacement aux contraintes de temps et de budget des collectivités territoriales."
-msgstr ""
-
-#: Template/Pages/home.ctp:314
-msgid "Logiciel de gestion de projet en ligne SaaS"
-msgstr ""
-
-#: Template/Pages/home.ctp:316
-msgid "La gestion d’un projet implique en réalité de réaliser une succession de tâches très différentes pour l’entreprise et qu’il faut, bien souvent, mener de front : planification, répartition des ressources, des tâches, activités de reporting, suivi de l’avancée des projets, de la consommation des budgets, etc."
-msgstr ""
-
-#: Template/Pages/home.ctp:324
-msgid "7 conseils clés pour bien s’équiper d’un outil de gestion de projet"
-msgstr ""
-
-#: Template/Pages/home.ctp:326
-msgid "Vous avez décidé qu’il était temps d’investir dans un outil de gestion de projet pour votre entreprise ? Vous souhaitez gagner en productivité et en efficacité dans la gestion de vos affaires courantes et, par la même occasion, en faire profiter tous les services ? C’est une très bonne idée."
-msgstr ""
-
-#: Template/Pages/home.ctp:332
-msgid "Voir tous les articles"
-msgstr ""
-
-#: Template/Pages/home.ctp:341
+#: Template/Pages/home coppy.ctp:341
+#: Template/Pages/home.ctp:110
 msgid "Assez parlé de nous."
 msgstr ""
 
-#: Template/Pages/home.ctp:342
+#: Template/Pages/home coppy.ctp:342
+#: Template/Pages/home.ctp:111
 msgid "Parlez-nous de vous !"
 msgstr ""
 
-#: Template/Pages/home.ctp:346
+#: Template/Pages/home coppy.ctp:346
+#: Template/Pages/home.ctp:115
 msgid "On discute !"
 msgstr ""
 
-#: Template/Pages/home.ctp:364
-msgid "Ensemble, on va plus loin."
-msgstr ""
-
-#: Template/Pages/home.ctp:367
-msgid "Entreprises"
-msgstr ""
-
-#: Template/Pages/home.ctp:368
-msgid "Collectivités"
-msgstr ""
-
-#: Template/Pages/home.ctp:369
-msgid "À propos"
-msgstr ""
-
-#: Template/Pages/home.ctp:370
-msgid "Contact"
-msgstr ""
-
-#: Template/Pages/home.ctp:371
-msgid "Blog"
-msgstr ""
-
-#: Template/Pages/home.ctp:375
-msgid "SUIVEZ-NOUS"
-msgstr ""
-
-#: Template/Pages/home.ctp:381
-msgid "changer de région"
-msgstr ""
-
-#: Template/Pages/home.ctp:394
-msgid "Plan du site"
-msgstr ""
-
-#: Template/Pages/home.ctp:395
-msgid "Contactez-nous"
-msgstr ""
-
-#: Template/Pages/home.ctp:396
-msgid "Mentions légales"
-msgstr ""
-
-#: Template/Pages/home.ctp:398
-msgid "© 2019 Globalsi SAS"
-msgstr ""
-
-#: Template/Pages/home.ctp:423
+#: Template/Pages/home coppy.ctp:423
+#: Template/Pages/home.ctp:142
 msgid "Changer de région"
 msgstr ""
 
-#: Template/Pages/home.ctp:431
+#: Template/Pages/home coppy.ctp:431
+#: Template/Pages/home.ctp:150
 msgid "Si vous sélectionnez une autre région, la langue et le contenu de z0gravity.com changeront."
 msgstr ""
 
-#: Template/Pages/home.ctp:433
-#: Template/Pages/home.ctp:434
-#: Template/Pages/home.ctp:435
-#: Template/Pages/home.ctp:436
-#: Template/Pages/home.ctp:437
-#: Template/Pages/home.ctp:438
-#: Template/Pages/home.ctp:439
-#: Template/Pages/home.ctp:440
-#: Template/Pages/home.ctp:441
-#: Template/Pages/home.ctp:442
-#: Template/Pages/home.ctp:443
-#: Template/Pages/home.ctp:444
+#: Template/Pages/home coppy.ctp:433
+#: Template/Pages/home coppy.ctp:434
+#: Template/Pages/home coppy.ctp:435
+#: Template/Pages/home coppy.ctp:436
+#: Template/Pages/home coppy.ctp:437
+#: Template/Pages/home coppy.ctp:438
+#: Template/Pages/home coppy.ctp:439
+#: Template/Pages/home coppy.ctp:440
+#: Template/Pages/home coppy.ctp:441
+#: Template/Pages/home coppy.ctp:442
+#: Template/Pages/home coppy.ctp:443
+#: Template/Pages/home coppy.ctp:444
+#: Template/Pages/home.ctp:152
+#: Template/Pages/home.ctp:153
+#: Template/Pages/home.ctp:154
+#: Template/Pages/home.ctp:155
+#: Template/Pages/home.ctp:156
+#: Template/Pages/home.ctp:157
+#: Template/Pages/home.ctp:158
+#: Template/Pages/home.ctp:159
+#: Template/Pages/home.ctp:160
+#: Template/Pages/home.ctp:161
+#: Template/Pages/home.ctp:162
+#: Template/Pages/home.ctp:163
 msgid "Vietnamese"
+msgstr ""
+
+#: Template/PressesTestimonials/add.ctp:10
+#: Template/PressesTestimonials/edit.ctp:16
+#: Template/PressesTestimonials/view.ctp:12
+msgid "List Presses Testimonials"
+msgstr ""
+
+#: Template/PressesTestimonials/add.ctp:16
+msgid "Add Presses Testimonial"
+msgstr ""
+
+#: Template/PressesTestimonials/edit.ctp:22
+#: Template/PressesTestimonials/view.ctp:10
+msgid "Edit Presses Testimonial"
+msgstr ""
+
+#: Template/PressesTestimonials/index.ctp:10
+#: Template/PressesTestimonials/view.ctp:13
+msgid "New Presses Testimonial"
+msgstr ""
+
+#: Template/PressesTestimonials/index.ctp:14
+msgid "Presses Testimonials"
+msgstr ""
+
+#: Template/PressesTestimonials/view.ctp:11
+msgid "Delete Presses Testimonial"
+msgstr ""
+
+#: Template/PressesTestimonials/view.ctp:20
+msgid "Logo Url"
+msgstr ""
+
+#: Template/PressesTestimonials/view.ctp:24
+msgid "Author"
+msgstr ""
+
+#: Template/PressesTestimonials/view.ctp:28
+msgid "Author Position"
 msgstr ""
 

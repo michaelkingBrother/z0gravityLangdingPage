@@ -1,0 +1,283 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2022-08-19 07:41+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Template/Layout/error.ctp:35
+msgid "Error"
+msgstr "Lỗi"
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr "Quay lại"
+
+#: Template/Pages/home.ctp:95
+msgid "ENTREPRISES"
+msgstr "CÔNG TY"
+
+#: Template/Pages/home.ctp:96
+msgid "SECTEUR PUBLIC"
+msgstr "KHU VỰC CÔNG"
+
+#: Template/Pages/home.ctp:97
+msgid "À PROPOS"
+msgstr "VỀ CHÚNG TÔI"
+
+#: Template/Pages/home.ctp:98
+msgid "CONTACT"
+msgstr "LIÊN HỆ"
+
+#: Template/Pages/home.ctp:99
+msgid "BLOG"
+msgstr "BLOG"
+
+#: Template/Pages/home.ctp:100
+msgid "Log Out"
+msgstr "Đăng Xuất"
+
+#: Template/Pages/home.ctp:115
+msgid "Voir la vidéo"
+msgstr "Xem video"
+
+#: Template/Pages/home.ctp:144
+#: Template/Pages/home.ctp:165
+#: Template/Pages/home.ctp:186
+msgid "Lire l’article "
+msgstr "Đọc bài báo"
+
+#: Template/Pages/home.ctp:156
+#: Template/Pages/home.ctp:177
+msgid "PRESSE"
+msgstr "BÁO CHÍ"
+
+#: Template/Pages/home.ctp:208
+msgid "POUR FAIRE COURT."
+msgstr "NGẮN GỌN THÌ."
+
+#: Template/Pages/home.ctp:209
+msgid "Z0 Gravity est un logiciel de gestion multi-projets :"
+msgstr "Z0 Gravity là một phần mềm quản lý đa dự án:"
+
+#: Template/Pages/home.ctp:209
+msgid "quelle que soit leur complexité, vous gérez facilement les plannings, les budgets et les ressources humaines de vos projets par un usage transversal et collaboratif."
+msgstr "bất kể mức độ phức tạp của chúng, bạn dễ dàng quản lý lịch trình, ngân sách và nguồn nhân lực cho các dự án của mình thông qua việc sử dụng hợp tác và chức năng chéo."
+
+#: Template/Pages/home.ctp:215
+msgid "Notre objectif :"
+msgstr "Mục tiêu của chúng tôi :"
+
+#: Template/Pages/home.ctp:216
+msgid "C’est aider tout type d’organisation à réaliser ses projets avec un seul mot d’ordre :"
+msgstr "Chính là giúp bất kỳ loại tổ chức nào thực hiện các dự án của mình bằng một từ khóa duy nhất:"
+
+#: Template/Pages/home.ctp:217
+msgid "sim-pli-ci-té !"
+msgstr "sự-đơn-giản !"
+
+#: Template/Pages/home.ctp:226
+msgid "Découvrez l’univers z0 Gravity"
+msgstr "Khám phá vũ trụ không trọng lực z0 Gravity"
+
+#: Template/Pages/home.ctp:227
+msgid "Plannings, budgets, calendriers… En un clin d'œil, vous avez une vision globale et stratégique de l'avancée de vos projets en temps réel !"
+msgstr "Lịch trình, ngân sách, lịch… Trong nháy mắt, bạn có tầm nhìn chiến lược và bao quát về tiến độ các dự án của mình trong thời gian thực!"
+
+#: Template/Pages/home.ctp:228
+msgid "Présentation vidéo"
+msgstr "Trình chiếu video"
+
+#: Template/Pages/home.ctp:241
+msgid "Vous êtes…"
+msgstr "Chúng tôi là..."
+
+#: Template/Pages/home.ctp:251
+msgid "Une entreprise"
+msgstr "Một công ty"
+
+#: Template/Pages/home.ctp:252
+msgid "Jouez collectif : fédérez vos équipes autour  d'un objectif commun."
+msgstr "Chơi cùng nhau: đoàn kết các nhóm của bạn vì một mục tiêu chung."
+
+#: Template/Pages/home.ctp:253
+msgid "3,2,1… Go !"
+msgstr "3,2,1… Go !"
+
+#: Template/Pages/home.ctp:261
+msgid "Une collectivité"
+msgstr "Một cộng đồng"
+
+#: Template/Pages/home.ctp:262
+msgid "Rassemblez les acteurs de votre projet via un logiciel commun !"
+msgstr "Tập hợp các thành viên trong dự án của bạn thông qua một phần mềm chung!"
+
+#: Template/Pages/home.ctp:263
+msgid "Découvrez comment"
+msgstr "Tìm hiểu cách làm"
+
+#: Template/Pages/home.ctp:271
+msgid "Un promeneur égaré"
+msgstr "Một người đi lạc"
+
+#: Template/Pages/home.ctp:272
+msgid "Bienvenue !  Installez-vous et  laissez-vous guider."
+msgstr "Chào mừng ! Hãy ngồi xuống và để bản thân được hướng dẫn."
+
+#: Template/Pages/home.ctp:273
+msgid "Commençons par ici"
+msgstr "Hãy bắt đầu ở đây"
+
+#: Template/Pages/home.ctp:284
+msgid "Nos articles"
+msgstr "Các bài viết của chúng tôi"
+
+#: Template/Pages/home.ctp:291
+msgid "Comment choisir votre logiciel de gestion de projet"
+msgstr "Cách chọn phần mềm quản lý dự án của bạn"
+
+#: Template/Pages/home.ctp:292
+#: Template/Pages/home.ctp:304
+#: Template/Pages/home.ctp:315
+#: Template/Pages/home.ctp:325
+msgid "eNTREPRISES"
+msgstr "CÔNG TY"
+
+#: Template/Pages/home.ctp:292
+#: Template/Pages/home.ctp:304
+#: Template/Pages/home.ctp:315
+#: Template/Pages/home.ctp:325
+msgid "15 min"
+msgstr "15 phút"
+
+#: Template/Pages/home.ctp:293
+msgid "Bien choisir son logiciel de gestion de projet ou son outil de gestion de projet est une question cruciale pour les entreprises."
+msgstr "Lựa chọn phần mềm quản lý dự án hoặc công cụ quản lý dự án phù hợp là một câu hỏi quan trọng đối với các công ty."
+
+#: Template/Pages/home.ctp:294
+#: Template/Pages/home.ctp:306
+#: Template/Pages/home.ctp:317
+#: Template/Pages/home.ctp:327
+msgid "Lire l’article"
+msgstr "Đọc bài viết"
+
+#: Template/Pages/home.ctp:303
+msgid "Logiciel de gestion de projet secteur public"
+msgstr "Phần mềm quản lý dự án khu vực công"
+
+#: Template/Pages/home.ctp:305
+msgid "z0 Gravity est un logiciel de gestion de projet développé avec et pour des collectivités territoriales. Grâce à son interface simple et son tableau de bord embarqué, ce logiciel de gestion de projet secteur public permet de répondre efficacement aux contraintes de temps et de budget des collectivités territoriales."
+msgstr "z0 Gravity là một phần mềm quản lý dự án được phát triển cho và cho chính quyền địa phương. Nhờ giao diện đơn giản và bảng điều khiển tích hợp, phần mềm quản lý dự án khu vực công này có thể đáp ứng hiệu quả các hạn chế về thời gian và ngân sách của chính quyền địa phương."
+
+#: Template/Pages/home.ctp:314
+msgid "Logiciel de gestion de projet en ligne SaaS"
+msgstr "Phần mềm quản lý dự án trực tuyến SaaS"
+
+#: Template/Pages/home.ctp:316
+msgid "La gestion d’un projet implique en réalité de réaliser une succession de tâches très différentes pour l’entreprise et qu’il faut, bien souvent, mener de front : planification, répartition des ressources, des tâches, activités de reporting, suivi de l’avancée des projets, de la consommation des budgets, etc."
+msgstr "Quản lý một dự án thực sự liên quan đến việc thực hiện liên tiếp các nhiệm vụ rất khác nhau cho công ty và thường phải được thực hiện đồng thời: lập kế hoạch, phân phối nguồn lực, nhiệm vụ, hoạt động báo cáo, giám sát tiến độ của dự án, tiêu thụ ngân sách, v.v."
+
+#: Template/Pages/home.ctp:324
+msgid "7 conseils clés pour bien s’équiper d’un outil de gestion de projet"
+msgstr "7 mẹo chính để trang bị cho mình một công cụ quản lý dự án đúng cách"
+
+#: Template/Pages/home.ctp:326
+msgid "Vous avez décidé qu’il était temps d’investir dans un outil de gestion de projet pour votre entreprise ? Vous souhaitez gagner en productivité et en efficacité dans la gestion de vos affaires courantes et, par la même occasion, en faire profiter tous les services ? C’est une très bonne idée."
+msgstr "Quyết định đã đến lúc đầu tư vào một công cụ quản lý dự án cho doanh nghiệp của bạn? Bạn có muốn tăng năng suất và hiệu quả trong việc quản lý công việc kinh doanh hàng ngày của mình và đồng thời mang lại lợi ích cho tất cả các phòng ban? Đó là một ý tưởng rất tốt."
+
+#: Template/Pages/home.ctp:332
+msgid "Voir tous les articles"
+msgstr "Xem tất cả các bài viết"
+
+#: Template/Pages/home.ctp:341
+msgid "Assez parlé de nous."
+msgstr "Đủ về chúng tôi."
+
+#: Template/Pages/home.ctp:342
+msgid "Parlez-nous de vous !"
+msgstr "Hãy cho chúng tôi biết về bạn!"
+
+#: Template/Pages/home.ctp:346
+msgid "On discute !"
+msgstr "Cùng nhau bàn bạc !"
+
+#: Template/Pages/home.ctp:364
+msgid "Ensemble, on va plus loin."
+msgstr "Cùng nhau, chúng tôi tiến xa hơn."
+
+#: Template/Pages/home.ctp:367
+msgid "Entreprises"
+msgstr "Công Ty"
+
+#: Template/Pages/home.ctp:368
+msgid "Collectivités"
+msgstr "Cộng đồng"
+
+#: Template/Pages/home.ctp:369
+msgid "À propos"
+msgstr "Về chúng tôi"
+
+#: Template/Pages/home.ctp:370
+msgid "Contact"
+msgstr "Liên hệ"
+
+#: Template/Pages/home.ctp:371
+msgid "Blog"
+msgstr "Blog"
+
+#: Template/Pages/home.ctp:375
+msgid "SUIVEZ-NOUS"
+msgstr "THEO CHÚNG TÔI"
+
+#: Template/Pages/home.ctp:381
+msgid "changer de région"
+msgstr "thay đổi khu vực"
+
+#: Template/Pages/home.ctp:394
+msgid "Plan du site"
+msgstr "Sơ đồ trang web"
+
+#: Template/Pages/home.ctp:395
+msgid "Contactez-nous"
+msgstr "liên hệ chúng tôi"
+
+#: Template/Pages/home.ctp:396
+msgid "Mentions légales"
+msgstr "Thông báo pháp lý"
+
+#: Template/Pages/home.ctp:398
+msgid "© 2019 Globalsi SAS"
+msgstr "© 2019 Globalsi SAS"
+
+#: Template/Pages/home.ctp:423
+msgid "Changer de région"
+msgstr "Thay đổi khu vực"
+
+#: Template/Pages/home.ctp:431
+msgid "Si vous sélectionnez une autre région, la langue et le contenu de z0gravity.com changeront."
+msgstr "Nếu bạn chọn một khu vực khác, ngôn ngữ và nội dung của z0gravity.com sẽ thay đổi."
+
+#: Template/Pages/home.ctp:433
+#: Template/Pages/home.ctp:434
+#: Template/Pages/home.ctp:435
+#: Template/Pages/home.ctp:436
+#: Template/Pages/home.ctp:437
+#: Template/Pages/home.ctp:438
+#: Template/Pages/home.ctp:439
+#: Template/Pages/home.ctp:440
+#: Template/Pages/home.ctp:441
+#: Template/Pages/home.ctp:442
+#: Template/Pages/home.ctp:443
+#: Template/Pages/home.ctp:444
+msgid "Vietnamese"
+msgstr "Tiếng Việt"
+

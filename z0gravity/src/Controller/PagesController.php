@@ -18,6 +18,10 @@ use Cake\Core\Configure;
 use Cake\Http\Exception\ForbiddenException;
 use Cake\Http\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
+use Cake\I18n\I18n;
+use Cake\I18n\Time;
+
+
 
 /**
  * Static content controller
@@ -40,30 +44,95 @@ class PagesController extends AppController
      */
     public function display(...$path)
     {
-        $count = count($path);
-        if (!$count) {
-            return $this->redirect('/');
-        }
-        if (in_array('..', $path, true) || in_array('.', $path, true)) {
-            throw new ForbiddenException();
-        }
-        $page = $subpage = null;
+        $lpImage = '';
+        $testimonials='';//query 
+        $this->loadModel('LpContents');
+        $this->loadModel('LpImages');
+        $this->loadModel('PressesTestimonials');
+        $this->loadModel('LpListArticles');
 
-        if (!empty($path[0])) {
-            $page = $path[0];
-        }
-        if (!empty($path[1])) {
-            $subpage = $path[1];
-        }
-        $this->set(compact('page', 'subpage'));
+        // $lpImage = $this->LpImages->find('all', array(
+        //     'recursive' => 1,
+        //     'join' => array(
+        //             'table' => 'lp_contents',
+        //             'alias' => 'LpContents',
+        //             'type' => 'inner',
+        //             'conditions' => 'LpContents.id = LpImages.lp_contents_id'
+        //         ),
+                
+        //     'fields' => array(
+        //         'LpImages.id',
+        //         'LpImages.image_url',
+        //         'LpImages.background_color',
+        //         'LpImages.text_color',
+        //         'LpImages.lp_contents_id',
+        //         'LpContents.id',
+        //         'LpContents.title',
+        //         'LpContents.description',
+        //         'LpContents.video_url',
+        //         'LpContents.btn_content',
+        //     ),
+        //     'order' => 'rand()'
+        // ))->first();
+        // // debug( $lpImage);
+        // /*
+        // $lpImage = $this->LpContents->find('all', array(
+        //     'recursive' => 1,
+        //     // 'joins' => array(
+        //     //     array(
+        //     //         'table' => 'lp_contents',
+        //     //         'alias' => 'LpContents',
+        //     //         'type' => 'inner',
+        //     //         'conditions' => 'LpContents.id = LpImages.lp_contents_id'
+        //     //     ),
+        //     // )
+        //     // 'order' => 'rand()',
+        //     'contain' => array('LpImages')
+        // ))->first();
+        // debug( $lpImage);
+        // */
+        // // exit;
+        // // I18n::setLocale('vi');
+        // // $this->loadModel('Articles');
+        $lpImage = $this->LpImages->find('all', [
+            'contain' => ['LpContents'],
+            'recursive' => 1,
+            'order' => 'rand()',
+        ])->first();
 
-        try {
-            $this->render(implode('/', $path));
-        } catch (MissingTemplateException $exception) {
-            if (Configure::read('debug')) {
-                throw $exception;
-            }
-            throw new NotFoundException();
+        $this->set('lpImage', $lpImage);
+        
+        $testimonials = $this->PressesTestimonials->find('all', [
+            'limit' => 3,
+            'order' => 'rand()',
+        ])->all();
+        $lpListArticles = $this->LpListArticles->find('all',[
+            'limit'=>4,
+            'order'=> 'rand()',
+        ])->all();
+        $this->set(compact('lpImage','testimonials','lpListArticles',));
+        $this->render('home');
+
         }
-    }
+        // public function changeLanguage(){
+        //     I18n::locale($locale);
+        // }
+        // public function changeLanguage(){
+        //     if($this->request->is('post')){
+        //         return $locale = $this->request->data('locale');
+                
+        //     }
+        // }
+        // public function changeLanguage()
+        // {
+        //     $this->I18n::setLocale('vi_VI');
+        // }
+        // public function changeLang() { 
+        //     $this->autoRender = false; 
+        //     $this->Session->write('Config.language','deu'); 
+        //     Configure::write('Config.language','deu'); 
+        //     $this->Session->setFlash(__('Language changed succefully.')); 
+        //     $this->redirect($this->referer()); 
+        // }
+        
 }

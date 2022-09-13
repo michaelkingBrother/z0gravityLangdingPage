@@ -68,7 +68,7 @@ $cakeDescription = 'z0gravity: make by ht.hophuoctrung@gmail.com';
 <body>
 
 <!-- ht-z0gravity header -->
-
+<h3><?= h($lpImage->id) ?></h3>
     <header>
         <div class="container mx-auto">
                 
@@ -92,12 +92,12 @@ $cakeDescription = 'z0gravity: make by ht.hophuoctrung@gmail.com';
                 </button> 
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <ul class="navbar-nav ms-auto text-uppercase">
-                        <li class="nav-item"><a href="#" class="nav-link">ENTREPRISES</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">SECTEUR PUBLIC</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">À PROPOS</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
-                        <li class="nav-item d-block d-md-none"><a href="#" class="nav-link">Log Out</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"><?= __('ENTREPRISES') ?></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"><?= __('SECTEUR PUBLIC') ?></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"><?= __('À PROPOS') ?></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"><?= __('CONTACT') ?></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"><?= __('BLOG') ?></a></li>
+                        <li class="nav-item d-block d-md-none"><a href="#" class="nav-link"><?= __('Log Out') ?></a></li>
                     </ul>
                 </div> 
             </nav>
@@ -109,10 +109,10 @@ $cakeDescription = 'z0gravity: make by ht.hophuoctrung@gmail.com';
         <div class="container">
             <div class='row mx-auto text-left'>
                 <div class='position-relative h-100 p-0 banelContent'>
-                        <h2>Fédérateur.<br>Personnalisé.<br>Souple & adapté.</h2>
-                        <p class='col-md-4'>Avec z0 Gravity, découvrez la simplicité et la performance d’une gestion de projet collaborative.</p><br>
-                        <button  type="button" class="btn btn-warning rounded-pill" data-toggle="modal" data-target="#exampleModal">Découvrez z0 Gravity</button><br><br>
-                        <button class="btn rounded-circle iconPlay" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-thin fa-play"></i></button><span>  &nbsp; Voir la vidéo</span>               
+                        <h2><?= __('Fédérateur.')?><br><?= __('Personnalisé.') ?><br><?= __('Souple & adapté.') ?></h2>
+                        <p class='col-md-4'><?= __('Avec z0 Gravity, découvrez la simplicité et la performance d’une gestion de projet collaborative.') ?></p><br>
+                        <button  type="button" class="btn btn-warning rounded-pill" data-toggle="modal" data-target="#exampleModal"><?= __('Découvrez z0 Gravity') ?></button><br><br>
+                        <button class="btn rounded-circle iconPlay" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-thin fa-play"></i></button><span>  &nbsp; <?= __('Voir la vidéo') ?></span>               
                     <div class="videoThumbnai">
                         <?= $this->Html->media('video.mp4', [
                             'poster'=> 'videopanel.jpg',
@@ -134,14 +134,14 @@ $cakeDescription = 'z0gravity: make by ht.hophuoctrung@gmail.com';
                             <blockquote class="mx-auto d-block blockquote bg-white position-relative">
                                 <p class='text-uppercase blockquoteTag'>PRESSE</p>
                                 <img src="/img/logo_egis.png"alt="logo egis">
-                                <p><i>
+                                <p><i><?= __('
                                 Il y avait tout d’abord la sécurité, l’outil z0 Gravity a pu être rapidement validé par les équipes d’Orange Cyberdéfense.
-                                </i></p>
+                                ')?></i></p>
                                 <footer class="blockquote-footer">
-                                    <cite title="Stéphane Touchet">Stéphane Touchet</cite>
+                                    <cite title="Stéphane Touchet"><?= __('Stéphane Touchet')?></cite>
                                     <div class="d-flex flex-column flex-md-row justify-content-between">
-                                    <p class='d-inline-block'>PMO service client Orange Sud-Ouest</p>
-                                    <p class='d-inline-block text-end'>Lire l’article <i class="fa fa-thin fa-arrow-up-right-from-square"></i></p>
+                                    <p class='d-inline-block'><?= __('PMO service client Orange Sud-Ouest')?></p>
+                                    <p class='d-inline-block text-end'><?= __('Lire l’article ')?><i class="fa fa-thin fa-arrow-up-right-from-square"></i></p>
                                     </div>
                                 </footer>
                             
@@ -153,16 +153,16 @@ $cakeDescription = 'z0gravity: make by ht.hophuoctrung@gmail.com';
                         </div>
                         <div class="carousel-item">
                             <blockquote class="mx-auto d-block blockquote bg-white position-relative">
-                                <p class='text-uppercase blockquoteTag p-4'>PRESSE</p>
+                                <p class='text-uppercase blockquoteTag p-4'><?= __('PRESSE')?></p>
                                 <img src="/img/logo_egis.png"alt="logo egis">
-                                <p><i>
+                                <p><i><?= __('
                                 Il y avait tout d’abord la sécurité, l’outil z0 Gravity a pu être rapidement validé par les équipes d’Orange Cyberdéfense.
-                                </i></p>
+                                ')?></i></p>
                                 <footer class="blockquote-footer">
-                                    <cite title="Stéphane Touchet">Stéphane Touchet</cite>
+                                    <cite title="Stéphane Touchet"><?= __('Stéphane Touchet')?></cite>
                                     <div class="d-flex flex-column flex-md-row justify-content-between">
-                                    <p class='d-inline-block'>PMO service client Orange Sud-Ouest</p>
-                                    <p class='d-inline-block text-end'>Lire l’article <i class="fa fa-thin fa-arrow-up-right-from-square"></i></p>
+                                    <p class='d-inline-block'><?= __('PMO service client Orange Sud-Ouest')?></p>
+                                    <p class='d-inline-block text-end'><?= __('Lire l’article ')?><i class="fa fa-thin fa-arrow-up-right-from-square"></i></p>
                                     </div>
                                 </footer>
                             
@@ -174,16 +174,16 @@ $cakeDescription = 'z0gravity: make by ht.hophuoctrung@gmail.com';
                         </div>
                         <div class="carousel-item">
                             <blockquote class="mx-auto d-block blockquote bg-white position-relative">
-                                <p class='text-uppercase blockquoteTag'>PRESSE</p>
+                            <p class='text-uppercase blockquoteTag p-4'><?= __('PRESSE')?></p>
                                 <img src="/img/logo_egis.png"alt="logo egis">
-                                <p><i>
+                                <p><i><?= __('
                                 Il y avait tout d’abord la sécurité, l’outil z0 Gravity a pu être rapidement validé par les équipes d’Orange Cyberdéfense.
-                                </i></p>
+                                ')?></i></p>
                                 <footer class="blockquote-footer">
-                                    <cite title="Stéphane Touchet">Stéphane Touchet</cite>
+                                    <cite title="Stéphane Touchet"><?= __('Stéphane Touchet')?></cite>
                                     <div class="d-flex flex-column flex-md-row justify-content-between">
-                                    <p class='d-inline-block'>PMO service client Orange Sud-Ouest</p>
-                                    <p class='d-inline-block text-end'>Lire l’article <i class="fa fa-thin fa-arrow-up-right-from-square"></i></p>
+                                    <p class='d-inline-block'><?= __('PMO service client Orange Sud-Ouest')?></p>
+                                    <p class='d-inline-block text-end'><?= __('Lire l’article ')?><i class="fa fa-thin fa-arrow-up-right-from-square"></i></p>
                                     </div>
                                 </footer>
                            
@@ -205,16 +205,16 @@ $cakeDescription = 'z0gravity: make by ht.hophuoctrung@gmail.com';
 <!-- ht-z0gravity project description with image -->
     <div class="container">   
         <div class="row z0title z0ProjectImage">
-            <h2 class='col-md-2 d-inline-block my-auto'>POUR FAIRE COURT.</h2>
-            <p class='col-md-10 d-inline-block my-auto text-center text-md-start'> <b>Z0 Gravity est un logiciel de gestion multi-projets :</b> quelle que soit leur complexité, vous gérez facilement les plannings, les budgets et les ressources humaines de vos projets par un usage transversal et collaboratif.</p>
+            <h2 class='col-md-2 d-inline-block my-auto'><?= __('POUR FAIRE COURT.')?></h2>
+            <p class='col-md-10 d-inline-block my-auto text-center text-md-start'> <b><?= __('Z0 Gravity est un logiciel de gestion multi-projets :')?></b> <?= __('quelle que soit leur complexité, vous gérez facilement les plannings, les budgets et les ressources humaines de vos projets par un usage transversal et collaboratif.')?></p>
         </div>
     </div>
         <div class="card bigcard container-md">
             <div class="row card-body">
                <div class="col-md-8 text-center text-md-start cardbackground">
-                  <h2 class="card-title text-white">Notre objectif :</h2>
-                   <p class="card-text col-md-8">C’est aider tout type d’organisation à réaliser ses projets avec un seul mot d’ordre :</p>
-                   <p><strong>sim-pli-ci-té !</strong></p>
+                  <h2 class="card-title text-white"><?= __('Notre objectif :')?></h2>
+                   <p class="card-text col-md-8"><?= __('C’est aider tout type d’organisation à réaliser ses projets avec un seul mot d’ordre :')?></p>
+                   <p><strong><?= __('sim-pli-ci-té !')?></strong></p>
                 </div>
                 <img class="col-md-4 img-fluid" src="/img/ZG_HomeObjectif_2x.jpg" alt="sans"/>
             </div>
@@ -223,9 +223,9 @@ $cakeDescription = 'z0gravity: make by ht.hophuoctrung@gmail.com';
 <!-- ht-z0gravity project description with video -->
     <div class="contaier-fluid">
         <div class="row mx-auto z0title z0ProjectVideo ">
-            <h2>Découvrez l’univers z0 Gravity</h2>
-            <p>Plannings, budgets, calendriers… En un clin d'œil, vous avez une vision globale et stratégique de l'avancée de vos projets en temps réel !</p><br><br>
-            <button type="button" class="btn btn-warning rounded-pill"><i class="fa fa-thin fa-play"></i>&nbsp; Présentation vidéo</button>
+            <h2><?= __('Découvrez l’univers z0 Gravity')?></h2>
+            <p><?= __('Plannings, budgets, calendriers… En un clin d\'œil, vous avez une vision globale et stratégique de l\'avancée de vos projets en temps réel !')?></p><br><br>
+            <button type="button" class="btn btn-warning rounded-pill"><i class="fa fa-thin fa-play"></i>&nbsp; <?= __('Présentation vidéo')?></button>
         </div>
         <div class="row mx-auto z0gravityMobiDesktop">
             <div class="d-flex justify-content-center">
@@ -238,7 +238,7 @@ $cakeDescription = 'z0gravity: make by ht.hophuoctrung@gmail.com';
     <section class='container z0Company'>
             
     <div class="z0title">
-        <h2>Vous êtes…</h2>
+        <h2><?= __('Vous êtes…')?></h2>
     </div>
 
 <!-- ht-z0gravity company 3 card short description-->  
@@ -248,9 +248,9 @@ $cakeDescription = 'z0gravity: make by ht.hophuoctrung@gmail.com';
             <div class="card mx-auto">
                 <img class="card-img-top" src="/img/ZG_icon_home_entreprise@3x.png" alt="ZG_icon_home_entreprise">
                 <div class="card-body">
-                    <h5 class="card-title">Une entreprise </h5>
-                    <p class="card-text h-100">Jouez collectif : fédérez vos équipes autour  d'un objectif commun.</p>
-                    <a href="#" class="btn btn-primary rounded-pill">3,2,1… Go !</a>
+                    <h5 class="card-title"><?= __('Une entreprise')?> </h5>
+                    <p class="card-text h-100"><?= __('Jouez collectif : fédérez vos équipes autour  d\'un objectif commun.')?></p>
+                    <a href="#" class="btn btn-primary rounded-pill"><?= __('3,2,1… Go !')?></a>
                 </div>
             </div>
             </div>
@@ -258,9 +258,9 @@ $cakeDescription = 'z0gravity: make by ht.hophuoctrung@gmail.com';
             <div class="card mx-auto">
                 <img class="card-img-top" src="/img/ZG_icon_home_collectivites@3x.png" alt="ZG_icon_home_collectivites">
                 <div class="card-body">
-                    <h5 class="card-title">Une collectivité </h5>
-                    <p class="card-text h-100">Rassemblez les acteurs de votre projet via un logiciel commun !</p>
-                    <a href="#" class="btn btn-danger rounded-pill">Découvrez comment</a>
+                    <h5 class="card-title"><?= __('Une collectivité')?></h5>
+                    <p class="card-text h-100"><?= __('Rassemblez les acteurs de votre projet via un logiciel commun !')?></p>
+                    <a href="#" class="btn btn-danger rounded-pill"><?= __('Découvrez comment')?></a>
                 </div>    
             </div>
             </div>
@@ -268,9 +268,9 @@ $cakeDescription = 'z0gravity: make by ht.hophuoctrung@gmail.com';
             <div class="card mx-auto">
                 <img class="card-img-top" src="/img/ZG_icon_home_promeneur@3x.png" alt="ZG_icon_home_promeneur">
                 <div class="card-body">
-                    <h5 class="card-title">Un promeneur égaré </h5>
-                    <p class="card-text h-100">Bienvenue !  Installez-vous et  laissez-vous guider.</p>
-                    <a href="#" class="btn btn-warning rounded-pill">Commençons par ici</a>
+                    <h5 class="card-title"><?= __('Un promeneur égaré')?></h5>
+                    <p class="card-text h-100"><?= __('Bienvenue !  Installez-vous et  laissez-vous guider.')?></p>
+                    <a href="#" class="btn btn-warning rounded-pill"><?= __('Commençons par ici')?></a>
                 </div>
             </div>
             </div>
@@ -281,55 +281,55 @@ $cakeDescription = 'z0gravity: make by ht.hophuoctrung@gmail.com';
 <!-- ht- ht-z0gravity company Nos articles  -->
 <section class="nosArticles d-none d-md-block">
     <div class="z0title">
-        <h2>Nos articles</h2>
+        <h2><?= __('Nos articles')?></h2>
     </div>
     <div class="row articles">
         <div class="col-4 d-flex align-items-stretch">
-        <div class="card h-100 p-0" id='articlesCard1'>
-            <img class="card-img-top mb-0" src="/img/ZG_icon_home_entreprise@3x.png" alt="ZG_icon_home_entreprise">
-            <div class="card-body h-100 position-relative">
-                <h5 class="card-title">Comment choisir votre logiciel de gestion de projet</h5>
-                <p class="card-tag text-uppercase p-2 d-inline-block">eNTREPRISES</p><span>15 min</span>
-                <p class="card-text h-100">Bien choisir son logiciel de gestion de projet ou son outil de gestion de projet est une question cruciale pour les entreprises.</p>
-                <a href="#" class="btn btn-outline-info rounded-pill position-absolute bottom-0 start-0">Lire l’article</a>
+        <div class="card p-0 position-relative" id='articlesCard1'>
+            <img class="card-img-top mb-0" src="/img/article1.jpg" alt="ZG_icon_home_entreprise">
+            <div class="card-body h-100">
+                <h5 class="card-title"><?= __('Comment choisir votre logiciel de gestion de projet')?></h5>
+                <p class="card-tag text-uppercase p-2 d-inline-block"><?= __('eNTREPRISES')?></p><span><?= __('15 min')?></span>
+                <p class="card-text h-100"><?= __('Bien choisir son logiciel de gestion de projet ou son outil de gestion de projet est une question cruciale pour les entreprises.')?></p>
+                <a href="#" class="btn btn-outline-info rounded-pill position-absolute bottom-0 start-0"><?= __('Lire l’article')?></a>
             </div>
         </div>
         </div>
-        <div class="col-8 d-flex align-items-stretch" id='articlesCard2'>
-        <div class="card h-100 p-0 mx-auto">
-            <div class="row">
-            <img class="col-5 h-100" src="/img/ZG_icon_home_entreprise@3x.png" alt="ZG_icon_home_entreprise">
-            <div class="card-body col-7 h-100 position-relative">
-                <h5 class="card-title">Logiciel de gestion de projet secteur public</h5>
-                <p class="card-tag text-uppercase p-2 d-inline-block">eNTREPRISES</p><span>15 min</span>
-                <p class="card-text h-100">z0 Gravity est un logiciel de gestion de projet développé avec et pour des collectivités territoriales. Grâce à son interface simple et son tableau de bord embarqué, ce logiciel de gestion de projet secteur public permet de répondre efficacement aux contraintes de temps et de budget des collectivités territoriales.</p>
-                <a href="#" class="btn btn-outline-info rounded-pill position-absolute bottom-0 start-0">Lire l’article</a>
+        <div class="col-8 d-flex align-items-stretch">
+        <div class="card p-0 h-100 mx-auto position-relative">
+            <div class="row" id='articlesCard2'>
+            <img class="col-4 p-0" src="/img/article2.jpg" alt="article2">
+            <div class="card-body col-7 p-0">
+                <h5 class="card-title"><?= __('Logiciel de gestion de projet secteur public')?></h5>
+                <p class="card-tag text-uppercase p-2 d-inline-block"><?= __('eNTREPRISES')?></p><span><?= __('15 min')?></span>
+                <p class="card-text h-100"><?= __('z0 Gravity est un logiciel de gestion de projet développé avec et pour des collectivités territoriales. Grâce à son interface simple et son tableau de bord embarqué, ce logiciel de gestion de projet secteur public permet de répondre efficacement aux contraintes de temps et de budget des collectivités territoriales.')?></p>
+                <a href="#" class="btn btn-outline-info rounded-pill position-absolute bottom-0"><?= __('Lire l’article')?></a>
             </div>
-            </div>
-        </div>
-        </div>
-        <div class="col-6 d-flex align-items-stretch">
-        <div class="card h-100 p-0 mx-auto">
-            <div class="card-body h-100 position-relative">
-                <h5 class="card-title">Logiciel de gestion de projet en ligne SaaS</h5>
-                <p class="card-tag text-uppercase p-2 d-inline-block">eNTREPRISES</p><span>15 min</span>
-                <p class="card-text h-100">La gestion d’un projet implique en réalité de réaliser une succession de tâches très différentes pour l’entreprise et qu’il faut, bien souvent, mener de front : planification, répartition des ressources, des tâches, activités de reporting, suivi de l’avancée des projets, de la consommation des budgets, etc.</p>
-                <a href="#" class="btn btn-outline-info rounded-pill position-absolute bottom-0 start-0">Lire l’article</a>
             </div>
         </div>
         </div>
         <div class="col-6 d-flex align-items-stretch">
-        <div class="card mx-auto h-100">
-            <div class="card-body h-100 position-relative">
-                <h5 class="card-title">7 conseils clés pour bien s’équiper d’un outil de gestion de projet</h5>
-                <p class="card-tag text-uppercase p-2 d-inline-block">eNTREPRISES</p><span>15 min</span>
-                <p class="card-text h-100">Vous avez décidé qu’il était temps d’investir dans un outil de gestion de projet pour votre entreprise ? Vous souhaitez gagner en productivité et en efficacité dans la gestion de vos affaires courantes et, par la même occasion, en faire profiter tous les services ? C’est une très bonne idée.</p>
-                <a href="#" class="btn btn-outline-info rounded-pill position-absolute bottom-0 start-0">Lire l’article</a>
+        <div class="card p-0 mx-auto position-relative" id='articlesCard3'>
+            <div class="card-body h-100">
+                <h5 class="card-title"><?= __('Logiciel de gestion de projet en ligne SaaS')?></h5>
+                <p class="card-tag text-uppercase p-2 d-inline-block"><?= __('eNTREPRISES')?></p><span><?= __('15 min')?></span>
+                <p class="card-text h-100"><?= __('La gestion d’un projet implique en réalité de réaliser une succession de tâches très différentes pour l’entreprise et qu’il faut, bien souvent, mener de front : planification, répartition des ressources, des tâches, activités de reporting, suivi de l’avancée des projets, de la consommation des budgets, etc.')?></p>
+                <a href="#" class="btn btn-outline-info rounded-pill position-absolute bottom-0 start-0"><?= __('Lire l’article')?></a>
+            </div>
+        </div>
+        </div>
+        <div class="col-6 d-flex align-items-stretch">
+        <div class="card mx-auto position-relative" id='articlesCard4'>
+            <div class="card-body h-100">
+                <h5 class="card-title"><?= __('7 conseils clés pour bien s’équiper d’un outil de gestion de projet')?></h5>
+                <p class="card-tag text-uppercase p-2 d-inline-block"><?= __('eNTREPRISES')?></p><span><?= __('15 min')?></span>
+                <p class="card-text h-100"><?= __('Vous avez décidé qu’il était temps d’investir dans un outil de gestion de projet pour votre entreprise ? Vous souhaitez gagner en productivité et en efficacité dans la gestion de vos affaires courantes et, par la même occasion, en faire profiter tous les services ? C’est une très bonne idée.')?></p>
+                <a href="#" class="btn btn-outline-info rounded-pill position-absolute bottom-0 start-0"><?= __('Lire l’article')?></a>
             </div>
         </div>
         </div>
         <div class="row mx-auto readMoreArticles">
-            <button class='btn btn-primary rounded-pill mx-auto'>Voir tous les articles</button>
+            <button class='btn btn-primary rounded-pill mx-auto'><?= __('Voir tous les articles')?></button>
         </div>
         
     </div>
@@ -338,12 +338,12 @@ $cakeDescription = 'z0gravity: make by ht.hophuoctrung@gmail.com';
 <!-- ht-z0gravity call action button-->
     <div class="z0title callAction ">
         <h2>
-            <b>Assez parlé de nous.</b><br>
-            Parlez-nous de vous !
+            <b><?= __('Assez parlé de nous.')?></b><br>
+            <?= __('Parlez-nous de vous !')?>
         </h2>
     </div>
     <div class="row mx-auto callActionBtn">
-        <button class='btn btn-warning rounded-pill text-white mx-auto'>On discute !</button>
+        <button class='btn btn-warning rounded-pill text-white mx-auto'><?= __('On discute !')?></button>
     </div>
 
 <!-- end ht-z0gravity call action button-->
@@ -361,24 +361,24 @@ $cakeDescription = 'z0gravity: make by ht.hophuoctrung@gmail.com';
                     <div class="row footerInfo">
                         <div class="col-md-4 footerLogo">
                             <img src="/img/z0_Gravity_Logo_BlancBleu-1.svg" alt="logo" class='img-fluid'>
-                            <p>Ensemble, on va plus loin.</p>
+                            <p><?= __('Ensemble, on va plus loin.')?></p>
                         </div>
                         <ul class="col-md-3 list-unstyled text-white mt-0 pt-0 pb-0 mb-0 d-flex flex-column justify-content-between footerMenu">
-                            <li class='pt-0 mt-0'>Entreprises</li>
-                            <li>Collectivités</li>
-                            <li>À propos</li>
-                            <li>Contact</li>
-                            <li>Blog</li>
+                            <li class='pt-0 mt-0'><?= __('Entreprises')?></li>
+                            <li><?= __('Collectivités')?></li>
+                            <li><?= __('À propos')?></li>
+                            <li><?= __('Contact')?></li>
+                            <li><?= __('Blog')?></li>
                         </ul>
                         <div class="col-md-4 d-flex flex-column justify-content-between">
                             <div class="socialLink">
-                                <p class='text-uppercase'>SUIVEZ-NOUS</p>
+                                <p class='text-uppercase'><?= __('SUIVEZ-NOUS')?></p>
                                 <a href="#"><i class="fa fa-brands fa-facebook-f"></i></a>
                                 <a href="#"><i class="fa fa-brands fa-twitter"></i></a>
                                 <a href="#"><i class="fa fa-brands fa-vimeo-v"></i></a> 
                             </div>
                             <button type='button' class='btn btn-outline-info rounded-pill' data-toggle="modal" data-target="#langguage">
-                                <i class="fa-solid fa-globe"></i><span>&nbsp; changer de région</span>
+                                <i class="fa-solid fa-globe"></i><span>&nbsp; <?= __('changer de région')?></span>
                             </button>
                         </div>
                     </div>
@@ -391,11 +391,11 @@ $cakeDescription = 'z0gravity: make by ht.hophuoctrung@gmail.com';
                 <div class='coppyRight'>
                 <ul class="list-unstyled d-flex flex-column flex-md-row">
                     <ul class='list-unstyled order-md-1 d-inline-block footerSiteLink'>
-                        <li class='d-inline-block'><a href="#" class='text-decoration-none'>Plan du site</a></li>
-                        <li class='d-inline-block'><a href="#" class='text-decoration-none'>Contactez-nous</a></li>
-                        <li class='d-inline-block'><a href="#" class='text-decoration-none'>Mentions légales</a></li>
+                        <li class='d-inline-block'><a href="#" class='text-decoration-none'><?= __('Plan du site')?></a></li>
+                        <li class='d-inline-block'><a href="#" class='text-decoration-none'><?= __('Contactez-nous')?></a></li>
+                        <li class='d-inline-block'><a href="#" class='text-decoration-none'><?= __('Mentions légales')?></a></li>
                     </ul>
-                    <li class='order-md-0'><a href="#" class='text-decoration-none'>© 2019 Globalsi SAS</a></li>
+                    <li class='order-md-0'><a href="#" class='text-decoration-none'><?= __('© 2019 Globalsi SAS')?></a></li>
                 </ul>
                 </div>
             </div>
@@ -409,9 +409,7 @@ $cakeDescription = 'z0gravity: make by ht.hophuoctrung@gmail.com';
   <div class="modal-dialog modal-dialog-centered modal-xl">
     <div class="modal-content">
         <div class="embed-responsive embed-responsive-16by9 mx-auto">
-        <iframe max-width="640" height="360" src="https://www.youtube.com/embed/nCC5_gOIEhg" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            
-        </iframe>
+        <iframe max-width="640" height="360" src="https://www.youtube.com/embed/nCC5_gOIEhg" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
   </div>
@@ -422,7 +420,7 @@ $cakeDescription = 'z0gravity: make by ht.hophuoctrung@gmail.com';
     <div class="modal-dialog modal-xl">
         <div class="modal-content mx-auto pt-0">
             <div class="modal-header flex-md-column-reverse">
-                <h2 class="modal-title align-self-md-start p-0 m-0">Changer de région</h2>
+                <h2 class="modal-title align-self-md-start p-0 m-0"><?= __('Changer de région')?></h2>
                 <button type="button" class="close align-self-md-end p-0 m-0 position-absolute" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true"><i class="fa fa-thin fa-xmark"></i></span>
                 </button>
@@ -430,20 +428,20 @@ $cakeDescription = 'z0gravity: make by ht.hophuoctrung@gmail.com';
             <div class="modal-body p-0">
                 <div class="container-fluid">
                     <div class="row">
-                    <p>Si vous sélectionnez une autre région, la langue et le contenu de z0gravity.com changeront.</p>
+                    <p><?= __('Si vous sélectionnez une autre région, la langue et le contenu de z0gravity.com changeront.')?></p>
                     <ul class="list-unstyled row">
-                        <li class="d-inline-blovk col-md-3"><a href="#">Vietnamese</a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="#">Vietnamese</a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="#">Vietnamese</a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="#">Vietnamese</a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="#">Vietnamese</a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="#">Vietnamese</a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="#">Vietnamese</a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="#">Vietnamese</a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="#">Vietnamese</a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="#">Vietnamese</a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="#">Vietnamese</a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="#">Vietnamese</a></li>
+                        <li class="d-inline-blovk col-md-3"><a href="#"><?= __('Vietnamese')?></a></li>
+                        <li class="d-inline-blovk col-md-3"><a href="#"><?= __('Vietnamese')?></a></li>
+                        <li class="d-inline-blovk col-md-3"><a href="#"><?= __('Vietnamese')?></a></li>
+                        <li class="d-inline-blovk col-md-3"><a href="#"><?= __('Vietnamese')?></a></li>
+                        <li class="d-inline-blovk col-md-3"><a href="#"><?= __('Vietnamese')?></a></li>
+                        <li class="d-inline-blovk col-md-3"><a href="#"><?= __('Vietnamese')?></a></li>
+                        <li class="d-inline-blovk col-md-3"><a href="#"><?= __('Vietnamese')?></a></li>
+                        <li class="d-inline-blovk col-md-3"><a href="#"><?= __('Vietnamese')?></a></li>
+                        <li class="d-inline-blovk col-md-3"><a href="#"><?= __('Vietnamese')?></a></li>
+                        <li class="d-inline-blovk col-md-3"><a href="#"><?= __('Vietnamese')?></a></li>
+                        <li class="d-inline-blovk col-md-3"><a href="#"><?= __('Vietnamese')?></a></li>
+                        <li class="d-inline-blovk col-md-3"><a href="#"><?= __('Vietnamese')?></a></li>
                     </ul>
                     </div>
                 </div>
