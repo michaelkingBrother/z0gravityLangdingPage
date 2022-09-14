@@ -93,7 +93,6 @@ class AppController extends Controller
     protected function _setLocate(){
         // $session->read('Config.language');
         // $locale = $this->Session->read('Config.language'); 
-        // debug($locale );exit();
         if( $this->request->data('locale')){
             $locale = $this->request->data('locale');
         }
@@ -107,8 +106,8 @@ class AppController extends Controller
         I18n::setLocale($locale);
         // $this->Session->write('Config.language', $locale); 
         // $sesstion->write('Config.language', $locale);
-        // debug(I18n::getLocale());
         return true;
+        
     }
     public function isAuthorized($role)
     {   
