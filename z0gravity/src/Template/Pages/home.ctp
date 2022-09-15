@@ -18,8 +18,8 @@
 <!-- ht-z0gravity project description with image -->
         <div class="container">   
             <div class="row align-items-center z0title z0ProjectImage">
-                <h2 class='col-md-2 offset-md-1 d-inline-block my-auto'><?= __('POUR FAIRE COURT.')?></h2>
-                <p class='col-md-9 d-inline-block my-auto text-center text-md-start'> <b><?= __('Z0 Gravity est un logiciel de gestion multi-projets :')?></b> <?= __('quelle que soit leur complexité, vous gérez facilement les plannings, les budgets et les ressources humaines de vos projets par un usage transversal et collaboratif.')?></p>
+                <h2 class='col-md-2  d-inline-block my-auto text-md-start'><?= __('POUR FAIRE COURT.')?></h2>
+                <p class='col-md-10 d-inline-block my-auto text-center text-md-start'> <b><?= __('Z0 Gravity est un logiciel de gestion multi-projets :')?></b> <?= __('quelle que soit leur complexité, vous gérez facilement les plannings, les budgets et les ressources humaines de vos projets par un usage transversal et collaboratif.')?></p>
             </div>
         </div>
         <div class="card bigcard container-md">
@@ -128,31 +128,33 @@
 <div class="modal fade" id="langguage" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl changeLanguage">
         <div class="modal-content mx-auto pt-0">
-            <div class="modal-header flex-md-column-reverse pb-0">
-                <h2 class="modal-title align-self-md-start p-0 m-0"><?= __('Changer de région')?></h2>
+            <div class="modal-header pb-0 flex-md-column-reverse">
+                <h2 class="modal-title align-self-md-start mb-0"><?= __('Changer de région')?></h2>
                 <button type="button" class="close align-self-md-end p-0 m-0 position-absolute" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true"><i class="fa fa-thin fa-xmark"></i></span>
                 </button>
             </div>
-            <div class="modal-body p-0">
-                <div class="container-fluid">
+            <div class="modal-body">
+                <div class="container-fluid p-0">
                     <div class="row"> 
-                    <p class='mb-0'>
+                    <p>
                         <?= __('Si vous sélectionnez une autre région, la langue et le contenu de z0gravity.com changeront.')?>
                     </p>
-                    <ul class="list-unstyled row">
-                        <li class="d-inline-blovk col-md-3"><a href="/?lang=vi_VN"><?= __('Vietnamese')?></a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="/?lang=fr_FR"><?= __('French')?></a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="/?lang=vi_VN"><?= __('Vietnamese')?></a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="/?lang=vi_VN"><?= __('Vietnamese')?></a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="/?lang=vi_VN"><?= __('Vietnamese')?></a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="/?lang=vi_VN"><?= __('Vietnamese')?></a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="/?lang=vi_VN"><?= __('Vietnamese')?></a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="/?lang=vi_VN"><?= __('Vietnamese')?></a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="/?lang=vi_VN"><?= __('Vietnamese')?></a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="/?lang=vi_VN"><?= __('Vietnamese')?></a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="/?lang=vi_VN"><?= __('Vietnamese')?></a></li>
-                        <li class="d-inline-blovk col-md-3"><a href="/?lang=vi_VN"><?= __('Vietnamese')?></a></li>
+                    <ul class="list-unstyled row p-0">
+                        <li class="col-md-3"><a href="/?lang=vi_VN"><?= __('Vietnamese')?></a></li>
+                        <li class="col-md-3"><a href="/?lang=vi_VN"><?= __('Deutsch')?></a></li>
+                        <li class="col-md-3"><a href="/?lang=en_US"><?= __('English')?></a></li>
+                        <li class="col-md-3"><a href="/?lang=es"><?= __('Español')?></a></li>
+                        <li class="col-md-3"><a href="/?lang=fr_FR"><?= __('Français')?></a></li>
+                        <li class="col-md-3"><a href="/?lang=nl_NL"><?= __('Nederlands')?></a></li>
+                        <li class="col-md-3"><a href="/?lang=pl"><?= __('Polski')?></a></li>
+                        <li class="col-md-3"><a href="/?lang=pt-br"><?= __('Português')?></a></li>
+                        <li class="col-md-3"><a href="/?lang=ru"><?= __('Русский')?></a></li>
+                        <li class="col-md-3"><a href="/?lang=no_NO"><?= __('Bokmål')?></a></li>
+                        <li class="col-md-3"><a href="/?lang=el"><?= __('Ελληνικά')?></a></li>
+                        <li class="col-md-3"><a href="/?lang=ja"><?= __('日本語')?></a></li>
+                        <li class="col-md-3"><a href="/?lang=zh-cn"><?= __('繁體中文')?></a></li>
+
                     </ul>
                     </div>
                 </div>

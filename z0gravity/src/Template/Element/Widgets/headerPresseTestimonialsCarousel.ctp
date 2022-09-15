@@ -7,13 +7,20 @@
                         <div class="carousel-item active">
                         <blockquote class="mx-auto d-block blockquote bg-white position-relative">
                             <p class='text-uppercase m-0 blockquoteTag'>PRESSE</p>
-                            <img src="<?=$testimonial->logo_url?>"alt="Press Logo">
+                            <?= $this->html->image(
+                                $testimonial->logo_url,
+                                [
+                                    'alt'=>'Press Logo',
+                                    'height'=>'40px',
+                                    'url'=> $testimonial->presse_url,
+                                ]
+                            )?>
                             <p><i><?= __($testimonial->description)?></i></p>
-                            <footer class="blockquote-footer">
+                            <footer class="blockquote-footer p-0">
                                 <cite title="Stéphane Touchet"><?= __($testimonial->author)?></cite>
                                 <div class="d-flex flex-column flex-md-row justify-content-between">
-                                <p class='d-inline-block'><?= __($testimonial->author_position)?></p>
-                                <p class='d-inline-block text-end'>
+                                <p><?= __($testimonial->author_position)?></p>
+                                <span class='text-end'>
                                     <?= $this->Html->link(
                                     __('Lire l’article ').'<i class="fa fa-thin fa-arrow-up-right-from-square p-2"></i>',
                                     $testimonial->presse_url,
@@ -22,7 +29,7 @@
                                     ]
                                     )
                                     ?>   
-                                </p>
+                                </span>
                                 </div>
                             </footer>
                         <div class="position-absolute slideBtn">
@@ -37,7 +44,14 @@
                         <div class="carousel-item">
                         <blockquote class="mx-auto d-block blockquote bg-white position-relative">
                             <p class='text-uppercase m-0 blockquoteTag'>PRESSE</p>
-                            <img src=" <?=$testimonial->logo_url?>"alt="Press Logo">
+                            <?= $this->html->image(
+                                $testimonial->logo_url,
+                                [
+                                    'alt'=>'Press Logo',
+                                    'height'=>'40px',
+                                    'url'=> $testimonial->presse_url,
+                                ]
+                            )?>
                             <p><i><?= __($testimonial->description)?></i></p>
                             <footer class="blockquote-footer">
                                 <cite title="Stéphane Touchet"><?= __($testimonial->author)?></cite>

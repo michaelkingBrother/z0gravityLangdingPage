@@ -3,6 +3,8 @@
         <li class="heading"><?= __('Actions') ?></li>
         <li><?= $this->Html->link(__('All Header panel contetn'), ['controller' => 'LpContents', 'action' => 'index']) ?></li>
         <li><?= $this->Html->link(__('All Header image'), ['controller' => 'LpImages', 'action' => 'index']) ?></li>
+        <li><?= $this->Html->link(__('All presses'), ['controller' => 'PressesTestimonials', 'action' => 'index']) ?></li>
+        <li><?= $this->Html->link(__('All articles'), ['controller' => 'LpListArticles', 'action' => 'index']) ?></li>
         <li><?= $this->Html->link(__('All Roles'), ['controller' => 'Roles', 'action' => 'index']) ?></li>
         <li><?= $this->Html->link(__('All user'), ['controller' => 'Users', 'action' => 'index']) ?></li>
     </ul>

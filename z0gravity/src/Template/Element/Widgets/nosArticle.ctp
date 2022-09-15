@@ -10,10 +10,9 @@
                     <?=$this->Html->image($lpListArticle->img_url, ['alt' => 'article thumbnail', 'class'=>'articlesCard']);?>
                     <div class="d-flex flex-column justify-content-between h-100">    
                         <h5 class='card-title'><?= __($lpListArticle->title)?></h5>
-                        <div>
-                            <p class="card-tag text-uppercase px-2 m-0 d-inline-block"><?= __($lpListArticle->category)?></p>
+                        <div class='card-tag'>
+                            <p class=" text-uppercase px-2 m-0 d-inline-block"><?= __($lpListArticle->category)?></p>
                             <span class ="px-2">
-                                <!-- <?php echo $lpListArticle->modified->i18nFormat('yyyy-MM-dd') ?> -->
                                 <?php echo $lpListArticle->modified->timeAgoInWords([
                                     'accuracy' => ['month' => 'month'],
                                     'end' => '1 year'

@@ -3,9 +3,22 @@
     --textOnPrimaryColor: #049BF7;
     --maxWidth: 1048px;
 }
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url("/fonts/Poppins-SemiBold.tff") format("tff"),
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("/fonts/Poppins-Regular.tff") format("tff"),
+}
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("/fonts/Poppins-Medium.tff") format("tff"),
+}
+
+
 body{
     margin: auto;
-    max-width: 1570px;
     font-family: 'Poppins', sans-serif;
 }
 .container{
@@ -135,8 +148,7 @@ video[poster]{
     font-weight: 500;
     color:#BEBEBE;
 }
-.blockquote>img{
-    max-height: 37.3px;
+.blockquote a img{
     margin-top: 42px;
     margin-bottom: 46px;
 }
@@ -153,14 +165,15 @@ video[poster]{
 .blockquote-footer::before{
     display: none;
 }
-.blockquote-footer p{
+.blockquote-footer p,
+.blockquote-footer span
+{
     font-size: 18px;
-    line-height: 27px;
+    line-height: 18px;
+    /* margin-bottom: 41px; */
 }
 .blockquote-footer a {
     color: #6c757d;
-    font-size: 18px;
-    line-height: 27px;
 }
 .blockquote .slideBtn{
     top: 24px;
@@ -299,19 +312,35 @@ video[poster]{
     overflow: hidden; 
 }
 .nosArticlesCard .card-title{
-    margin-top: 28px;
+    margin-top: 18px;
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
 }
-.nosArticlesCard .card-tag{
+.nosArticlesCard .card-tag p, 
+.nosArticlesCard .card-tag span
+{
     font-size: 12px;
     line-height: 18px;
+}
+.card-tag{
+    margin: 16px 0;
+}
+.nosArticlesCard .card-tag p{
+    color: #FF7D66;
+    background-color: #FF7D6626;
+}
+/* .nosArticlesCard .card-tag, 
+.nosArticlesCard span
+{
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 16px;
 }
 .nosArticlesCard .card-tag:not(p>span){
     color: #FF7D66;
     background-color: #FF7D6626;
-}
+} */
 .nosArticlesCard .card-text{
     font-size: 13px;
     line-height: 20px;
@@ -330,8 +359,12 @@ video[poster]{
 #nosArticlesCard4{
     flex-direction: column;
 }
+
 #nosArticlesCard1{
     max-width: 318px;
+}
+#nosArticlesCard1 .card-title{
+    max-height: 96px;
 }
 #nosArticlesCard1 img{
     max-height: 126px;
@@ -362,118 +395,16 @@ video[poster]{
 #nosArticlesCard4 img {
     display: none;
 }
-
-/* .articlesCard .btn{
-    bottom: 19px;
-    left: 19px;
-}
-.articlesCard .card-title{
-    font-size: 24px;
-    line-height: 32px;
-}
-#nosArticlesCard1{
-    font-weight: 500;
-    border: 1px solid #E2E2E2;
-    margin: 15px 0;
-    padding: 19px;
-    border-radius: 15px;
-    max-height: 454px;
-    max-width: 318px;
-    overflow: hidden; 
-}
-#nosArticlesCard1 img{
-    max-height: 126px;
-    width: 100%;
-    object-fit: cover;
-}
-#nosArticlesCard2{
-    font-weight: 500;
-    border: 1px solid #E2E2E2;
-    margin: 15px 0;
-    padding: 19px;
-    border-radius: 15px;
-    max-height: 454px;
-    max-width: 676px;
-    overflow: hidden; 
-}
-#nosArticlesCard3{
-    font-weight: 500;
-    border: 1px solid #E2E2E2;
-    margin: 15px 0;
-    padding: 19px;
-    border-radius: 15px;
-    max-height: 454px;
-    max-width: 492px;
-    overflow: hidden; 
-}
-#nosArticlesCard4{
-    font-weight: 500;
-    border: 1px solid #E2E2E2;
-    margin: 15px 0;
-    padding: 19px;
-    border-radius: 15px;
-    max-height: 454px;
-    max-width: 502px;
-    overflow: hidden; 
-} */
-/* 
-
-.articles .card{
-    border-radius: 15px;
-    max-height: 454px;
-    margin: 15px;
+#nosArticlesCard3 .card-title,
+#nosArticlesCard4 .card-title {
+    margin-top: 0;
 }
 
-.articles .card .card-title{
-    font-size: 24px;
-    line-height: 32px;
-}
-.articles .card .card-tag{
-    font-size: 12px;
-    line-height: 18px;
-    margin: 13px 0;  
-}
-.articles .card .card-body{
-    font-size: 13px;
-    line-height: 20px;
-}
-.articles .card-img-top {
-    max-height: 126px;
-    padding: 18px 18px 0px;   
-}
-.articles .card a{
-    margin-bottom: 19px;
-    margin-left: 16px;
-} */
 .readMoreArticles button{
     max-width: 237px;
     height: 39px;
     margin-top: 27px;
 }
-
-/* #articlesCard1{
-    height: 454px;
-    width: 318px;
-}
-#articlesCard2{
-    height: 454px;
-    width: 676px;
-    padding: 18px;
-}
-#articlesCard2 .card-body{
-    margin-left: 34px;
-}
-#articlesCard3{
-    height: 318px;
-    width: 492px;
-}
-#articlesCard4{
-    height: 318px;
-    width: 502px;
-} */
-
-
-
 
 /* css call to action  */
 .callAction{
@@ -558,46 +489,56 @@ footer{
     color: var(--primaryColor);
 }
 #langguage .modal-header{
-    font-size: 40px;
-    line-height: 60px;
-    font-style: SemiBold;
-    font-weight: 600;
     border: unset;
-    padding: 12px;
+    padding: 34px;
 }
 #langguage .modal-header>button{
     all: unset;
-    top: -13px;
-    right: 0px
+    top:0px;
+    right: 0px;
+    width: 47px;
+    height: 47px;
 }
 #langguage .modal-header button span>i{
     font-size: 23.24px;
-    line-height: 23.24x;
     padding: 11.62px;
     cursor: pointer;
 }
+#langguage .modal-header h2{
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 600;
+    color: var(--primaryColor);
+}
+#langguage .modal-body{
+    padding: 0 34px;
+}
+#langguage p {
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 14px;
+}
 #langguage ul{
-    margin: 72px 0;
+    margin: 56px 0;
+}
+#langguage li{
+    max-width: 182px;
+    margin-right: 60px;
+}
+
+#langguage li a{
+    color: var(--primaryColor);
+    line-height: 30px;
+    font-size: 20px;
 }
 #langguage li:hover{
     background-color: #FFD051;
+    border-radius: 5px;
 }
 #langguage li:active{
     background-color: var(--textOnPrimaryColor);
 }
-
-.modal-header h2{
-    line-height: 56px;
-    color: var(--primaryColor);
-}
 /* video youtube on popup model */
-/* language modal    */
-.changeLanguage{
-    width: 1024px;
-}
-.listLanguage>li{
-    max-width: 25%;
-}
 
 @media only screen and (max-width: 768px){
     .nav-item{
@@ -656,9 +597,14 @@ footer{
         line-height: 21px;
         font-weight: bold;
     }
-    .blockquote-footer p{
+    .blockquote-footer p,
+    .blockquote-footer span
+    {
         font-size: 14px;
         line-height: 21px;
+    }
+    .blockquote-footer a {
+        color: #6c757d;
     }
     .blockquote .slideBtn{
         top: 20px;
@@ -736,5 +682,48 @@ footer{
     .coppyRight{
         padding-bottom: 146px;
     }
-
+    #langguage .modal-header{
+        border: unset;
+        padding: 30px 25px;
+    }
+    #langguage .modal-header h2{
+        font-size: 23px;
+        line-height: 34px;
+        font-weight: 600;
+    }
+    #langguage .modal-header>button{
+        all: unset;
+        right: 0px;
+        width: 47px;
+        height: 47px;
+    }
+    #langguage .modal-header button span>i{
+        font-size: 26.62px;
+    }
+    #langguage .modal-body{
+        padding: 0 25px;
+    }
+    #langguage p {
+        line-height: 21px;
+        font-size: 14px;
+        margin-top: 26px;
+    }
+    #langguage ul{
+        margin: 28px 0;
+    }
+    #langguage li a{
+        color: var(--primaryColor);
+        line-height: 26px;
+        font-size: 17px;
+        max-width: unset;
+        margin-right: unset;
+    }
+    #langguage li a:hover{
+        color: #1A9BF7;
+        background-color: unset;
+        border-radius: unset;
+    }
+    #langguage li a:active{
+        background-color: var(--textOnPrimaryColor);
+    }
 }

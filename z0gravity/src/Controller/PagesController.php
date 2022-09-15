@@ -45,7 +45,8 @@ class PagesController extends AppController
     public function display(...$path)
     {
         $lpImage = '';
-        $testimonials='';//query 
+        $testimonials='';
+        $lpListArticles ='';//query 
         $this->loadModel('LpContents');
         $this->loadModel('LpImages');
         $this->loadModel('PressesTestimonials');
@@ -112,7 +113,6 @@ class PagesController extends AppController
         ])->all();
         $this->set(compact('lpImage','testimonials','lpListArticles',));
         $this->render('home');
-
         }
         // public function changeLanguage(){
         //     I18n::locale($locale);
